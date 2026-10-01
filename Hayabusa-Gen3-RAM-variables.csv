@@ -1,0 +1,37 @@
+ram_address,name,meaning,display_unit,conversion,confidence
+0xFEF0258E,RPM,Engine speed (main),RPM,X/2.56,high
+0xFEF02592,RPM,Engine speed (variant),RPM,X/2.56,high
+0xFEF02590,RPM,Engine speed (variant),RPM,X/2.56,high
+0xFEF0155C,RPM,Engine speed (ignition copy),RPM,X/2.56,high
+0xFEF02AEC,RPM,Engine speed (ETV copy),RPM,X/2.56,high
+0xFEF02AD4,RPM,Engine speed (copy),RPM,X/2.56,medium
+0xFEF0264C,RPM,Engine speed (copy),RPM,X/2.56,medium
+0xFEF0258C,RPM,Engine speed (copy),RPM,X/2.56,medium
+0xFEF02602,TP,"Throttle valve position (from TP sensors, ADC ch0B/ch2C)",TP (X/524.288),X/524.288,high
+0xFEF025FE,TP,Throttle valve position (selected/fail-safe),TP (X/524.288),X/524.288,medium
+0xFEF02634,TP,Throttle position (copy),TP (X/524.288),X/524.288,medium
+0xFEF02636,TP,Throttle position (copy),TP (X/524.288),X/524.288,medium
+0xFEF025EC,APS,"Accelerator (grip) position (from APS sensors, ADC ch0F/ch2B)",APS (X/524.288),X/524.288,high
+0xFEF02AEA,APS,Accelerator (grip) position (ETV copy),APS (X/524.288),X/524.288,high
+0xFEF01562,Grip%,Grip opening 0-100 % (X/5),% grip,X/5,medium
+0xFEF02628,Vacuum,Manifold vacuum = AP - IAP (offset 7862 = 0 kPa),vacuum kPa (est.),(X-7862)/470.76,medium
+0xFEF025C0,AP,Pressure sensor (ADC ch30) - likely barometric/AP,kPa (est.),X/470.76,medium
+0xFEF02622,IAP,Pressure sensor (ADC ch31) - likely intake/IAP,kPa (est.),X/470.76,medium
+0xFEF026A8,IAP,Copy of pressure sensor ch31 (likely IAP),kPa (est.),X/470.76,medium
+0xFEF026BD,ECT,"Engine coolant temperature (ADC ch2D), 8-bit",deg C,X*0.9375-30,high
+0xFEF026C1,IAT,"Temperature from ADC ch00, 8-bit (likely intake air temp)",deg C,X*0.9375-30,medium
+0xFEF026C2,Gear,"Gear position bitmask (1=N, 2=1st ... 0x40=6th) from GP sensor ADC ch2E",gear bit,X,high
+0xFEF0268E,Lean,Lean (bank) angle magnitude from IMU (0x8000 = upright),deg (est.),(X-32768)/182.044,medium
+0xFEF009D0,Slip,"Wheel-slip style ratio (front/rear speed based, 0x8000 = 0) - traction control",raw (0x8000=0),X-32768,medium
+0xFEF025A0,Vbatt,"Battery voltage, raw 10-bit ADC ch29",V (est. X/51.2),X/51.2,medium
+0xFEF025A2,Vbatt,Battery voltage raw,V (est. X/51.2),X/51.2,medium
+0xFEF02572,GP raw,Gear position sensor raw ADC ch2E,raw,X,high
+0xFEF02574,P raw ch31,Pressure sensor raw ADC ch31,raw,X,high
+0xFEF02576,P raw ch30,Pressure sensor raw ADC ch30,raw,X,high
+0xFEF02564,ECT raw,ECT sensor raw ADC ch2D,raw,X,high
+0xFEF0257C,IAT raw?,Temperature sensor raw ADC ch00,raw,X,medium
+0xFEF0257E,Vbatt raw,Battery voltage raw ADC ch29,raw,X,medium
+0xFEF0256A,APS D raw?,Accelerator sensor raw ADC ch0F (12-bit),raw,X,medium
+0xFEF0256C,APS E raw?,Accelerator sensor raw ADC ch2B (12-bit),raw,X,medium
+0xFEF0256E,TP A raw?,Throttle sensor raw ADC ch0B (12-bit),raw,X,medium
+0xFEF02570,TP B raw?,Throttle sensor raw ADC ch2C (12-bit),raw,X,medium

@@ -1,0 +1,700 @@
+id,title,dim,shape,data_addr,data_bits,x_addr,x_kind,y_addr,y_kind,min,max,flat,differs_L1_L4,category
+0x005,Cluster A :: Map 14x7 [RPM × ?] #005 (flat),2,14x7,0x151700,16,0x15088C,RPM,0x151310,AX,22282,22282,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x007,Cluster A :: Map 14x7 [RPM × ?] #007,2,14x7,0x1517C4,16,0x1508C4,RPM,0x151320,AX,23593,25559,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x009,Cluster A :: Map 14x7 [RPM × ?] #009,2,14x7,0x151888,16,0x1508FC,RPM,0x151330,AX,52429,55050,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x00B,Cluster A :: Map 14x7 [RPM × ?] #00B,2,14x7,0x15194C,16,0x150934,RPM,0x151340,AX,39322,52429,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x00D,Cluster A :: Curve 7pt [vs ?] #00D,1,7pt,0x151350,16,0x150578,AX,,,3146,6816,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x00E,Cluster A :: Curve 7pt [vs ?] #00E,1,7pt,0x151360,16,0x150580,AX,,,7130,11796,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x00F,Cluster A :: Curve 7pt [vs ?] #00F,1,7pt,0x151370,16,0x150588,AX,,,3328,4096,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x010,Cluster A :: Curve 7pt [vs ?] #010,1,7pt,0x151380,16,0x150590,AX,,,3328,4096,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x011,Cluster A :: Curve 7pt [vs ?] #011 (flat),1,7pt,0x151390,16,0x150598,AX,,,3840,3840,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x012,Cluster A :: Curve 7pt [vs ?] #012 (flat),1,7pt,0x1513A0,16,0x1505A0,AX,,,3840,3840,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x013,Cluster A :: Curve 14pt [vs RPM] #013 (flat),1,14pt,0x150A00,16,0x1509E4,RPM,,,1,1,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x014,Cluster A :: Curve 7pt [vs ?] #014,1,7pt,0x1513B0,16,0x1505A8,AX,,,773,65535,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x015,Cluster A :: Curve 7pt [vs ?] #015,1,7pt,0x1513C0,16,0x1505B0,AX,,,2556,4089,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x016,Cluster A :: Curve 7pt [vs ?] #016,1,7pt,0x1513D0,16,0x1505B8,AX,,,8179,13291,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x017,Cluster A :: Curve 14pt [vs RPM] #017 (flat),1,14pt,0x150A88,16,0x150A6C,RPM,,,1,1,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x018,Cluster A :: Curve 7pt [vs ?] #018 (flat),1,7pt,0x1513E0,16,0x1505C0,AX,,,65535,65535,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x019,Cluster A :: Curve 14pt [vs RPM] #019,1,14pt,0x1513F0,8,0x150ACC,RPM,,,1,13,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x01A,Cluster A :: Curve 14pt [vs RPM] #01A (flat),1,14pt,0x151400,8,0x150AFC,RPM,,,1,1,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x01B,Cluster A :: Curve 13pt [vs ?] #01B,1,13pt,0x15142C,16,0x151410,AX,,,0,1500,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x01C,Cluster A :: Curve 36pt [vs TP] #01C,1,36pt,0x151A58,16,0x151A10,TP,,,0,15849,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x01D,Cluster A :: Curve 7pt [vs ?] #01D,1,7pt,0x1505D0,8,0x1505C8,AX,,,1,25,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x01E,Cluster A :: Curve 31pt [vs TP] #01E,1,31pt,0x151488,16,0x151448,TP,,,32768,42598,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x01F,Cluster A :: Curve 7pt [vs ?] #01F (flat),1,7pt,0x1505E0,8,0x1505D8,AX,,,80,80,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x020,Cluster A :: Curve 36pt [vs TP] #020 (flat),1,36pt,0x151AE8,16,0x151AA0,TP,,,20971,20971,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x021,Cluster A :: Curve 11pt [vs index] #021,1,11pt,0x1516C4,8,0x1516B8,IDX,,,90,255,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x022,Cluster A :: Curve 11pt [vs index] #022 (flat),1,11pt,0x1516DC,8,0x1516D0,IDX,,,128,128,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x023,Cluster A :: Curve 11pt [vs index] #023 (flat),1,11pt,0x1514C8,16,0x1516E8,IDX,,,32768,32768,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x024,Cluster A :: Curve 30pt [vs ?] #024,1,30pt,0x150C1C,16,0x150BE0,AX,,,22768,32768,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x025,Cluster A :: Curve 30pt [vs ?] #025,1,30pt,0x150CA8,16,0x150C6C,AX,,,13107,32768,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x026,Cluster A :: Curve 36pt [vs TP] #026,1,36pt,0x151B78,16,0x151B30,TP,,,3683,47186,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x027,Cluster A :: Curve 36pt [vs TP] #027 (flat),1,36pt,0x151C08,16,0x151BC0,TP,,,0,0,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x028,Cluster A :: Curve 36pt [vs TP] #028 (flat),1,36pt,0x151C98,16,0x151C50,TP,,,32268,32268,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x029,Cluster A :: Curve 36pt [vs TP] #029 (flat),1,36pt,0x151D28,16,0x151CE0,TP,,,65535,65535,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x02A,Cluster A :: Curve 36pt [vs TP] #02A (flat),1,36pt,0x151DB8,16,0x151D70,TP,,,33268,33268,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x02B,Cluster A :: Curve 36pt [vs TP] #02B (flat),1,36pt,0x151E48,16,0x151E00,TP,,,65535,65535,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x02C,Cluster A :: Curve 7pt [vs ?] #02C,1,7pt,0x1514E0,16,0x1505E8,AX,,,14669,26842,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x02D,Cluster A :: Curve 7pt [vs ?] #02D,1,7pt,0x1514F0,16,0x1505F0,AX,,,3597,7066,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x02E,Cluster A :: Curve 7pt [vs ?] #02E (flat),1,7pt,0x151500,16,0x1505F8,AX,,,25600,25600,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x02F,Cluster A :: Curve 7pt [vs ?] #02F (flat),1,7pt,0x151510,16,0x150600,AX,,,5120,5120,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x030,Cluster A :: Curve 7pt [vs ?] #030 (flat),1,7pt,0x151520,16,0x150608,AX,,,16000,16000,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x031,Cluster A :: Curve 7pt [vs ?] #031 (flat),1,7pt,0x151530,16,0x150610,AX,,,3200,3200,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x032,Cluster A :: Curve 14pt [vs RPM] #032,1,14pt,0x150E04,16,0x150DE8,RPM,,,36,74,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x033,Cluster A :: Map 14x10 [RPM × ?] #033,2,14x10,0x151E90,16,0x150E34,RPM,0x150E50,AX,489,23593,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x035,Cluster A :: Map 14x7 [RPM × ?] #035,2,14x7,0x151FA8,16,0x150E80,RPM,0x151540,AX,3,9,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x037,Cluster A :: Map 14x7 [RPM × ?] #037,2,14x7,0x15206C,16,0x150EB8,RPM,0x151550,AX,0,22,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x039,Cluster A :: Map 14x8 [RPM × ?] #039,2,14x8,0x152130,8,0x150EF0,RPM,0x150618,AX,123,167,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x03B,Cluster A :: Map 14x8 [RPM × ?] #03B,2,14x8,0x1521A0,8,0x150F28,RPM,0x150628,AX,123,167,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x03D,Cluster A :: Map 14x8 [RPM × ?] #03D,2,14x8,0x152210,8,0x150F60,RPM,0x150638,AX,121,152,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x03F,Cluster A :: Map 14x8 [RPM × ?] #03F,2,14x8,0x152280,8,0x150F98,RPM,0x150648,AX,64,113,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x041,Cluster A :: Map 14x8 [RPM × ?] #041,2,14x8,0x1522F0,8,0x150FD0,RPM,0x150658,AX,64,113,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x043,Cluster A :: Map 14x8 [RPM × ?] #043,2,14x8,0x152360,8,0x151008,RPM,0x150668,AX,64,113,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x045,Cluster A :: Map 23x39 [? × ?] #045,2,23x39,0x152420,16,0x151560,AX,0x1523D0,AX,27552,46852,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x047,Cluster A :: Map 13x11 [? × index] #047 (flat),2,13x11,0x152B24,8,0x151590,TEMP?,0x1515AC,IDX,64,64,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x049,Cluster A :: Map 23x39 [? × ?] #049,2,23x39,0x152C04,16,0x1515C4,TEMP?,0x152BB4,AX,70,47186,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x04B,Cluster A :: Curve 16pt [vs RPM] #04B (flat),1,16pt,0x150698,16,0x150678,RPM,,,1280,1280,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x04C,Cluster A :: Map 5x5 [? × ?] #04C,2,5x5,0x15160C,16,0x1515F4,AX,0x151600,AX,0,1172,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x04E,Cluster A :: Map 39x4 [RPM × index] #04E,2,39x4,0x153358,16,0x153308,RPM,0x150568,IDX,0,5485,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x050,Cluster A :: Map 39x7 [RPM × ?] #050,2,39x7,0x1534E0,16,0x153490,RPM,0x151640,AX,0,5485,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x052,Cluster A :: Map 39x7 [RPM × ?] #052,2,39x7,0x153754,16,0x153704,RPM,0x151650,AX,0,5485,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x054,Cluster A :: Map 39x7 [RPM × ?] #054,2,39x7,0x1539C8,16,0x153978,RPM,0x151660,AX,0,5485,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x056,Cluster A :: Map 39x7 [RPM × ?] #056 (flat),2,39x7,0x153C3C,8,0x153BEC,RPM,0x151670,AX,64,64,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x058,Cluster A :: Map 39x7 [RPM × ?] #058 (flat),2,39x7,0x153DA0,8,0x153D50,RPM,0x151680,AX,64,64,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x05A,Cluster A :: Map 39x7 [RPM × ?] #05A (flat),2,39x7,0x153F04,8,0x153EB4,RPM,0x151690,AX,64,64,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x05C,Cluster A :: Curve 37pt [vs ?] #05C,1,37pt,0x154064,16,0x154018,AX,,,282,972,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x05D,Cluster A :: Curve 37pt [vs ?] #05D,1,37pt,0x1540FC,16,0x1540B0,AX,,,671,2048,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x05E,Cluster A :: Curve 36pt [vs TP] #05E,1,36pt,0x154190,16,0x154148,TP,,,32848,42941,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x05F,Cluster A :: Curve 10pt [vs RPM] #05F,1,10pt,0x1511D8,16,0x1511C4,RPM,,,2712,6694,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x060,Cluster A :: Curve 16pt [vs ?] #060,1,16pt,0x1506D8,16,0x1506B8,AX,,,30147,33423,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x061,Cluster A :: Curve 16pt [vs ?] #061,1,16pt,0x150718,16,0x1506F8,AX,,,30933,33423,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x062,Cluster A :: Curve 16pt [vs ?] #062,1,16pt,0x150758,16,0x150738,AX,,,30147,33423,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x063,Cluster A :: Curve 16pt [vs ?] #063,1,16pt,0x150798,16,0x150778,AX,,,30933,33423,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x064,Cluster A :: Curve 16pt [vs ?] #064,1,16pt,0x1507D8,16,0x1507B8,AX,,,26214,35389,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x065,Cluster A :: Curve 11pt [vs index] #065 (flat),1,11pt,0x1516F4,8,0x1516A0,IDX,,,0,0,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x066,Cluster A :: Curve 37pt [vs ?] #066,1,37pt,0x154224,16,0x1541D8,AX,,,0,65535,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x067,Cluster A :: Curve 14pt [vs RPM] #067,1,14pt,0x1512A8,16,0x15128C,RPM,,,36,74,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x068,Cluster A :: Curve 16pt [vs RPM] #068 (flat),1,16pt,0x150818,16,0x1507F8,RPM,,,0,0,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x069,Cluster A :: Curve 16pt [vs ?] #069 (flat),1,16pt,0x150858,16,0x150838,AX,,,65535,65535,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x06B,Cluster A :: Curve 6pt [vs ?] #06B (flat),1,6pt,0x154500,16,0x1544F4,AX,,,47514,47514,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x06C,Cluster A :: Map 10x14 [? × RPM] #06C (flat),2,10x14,0x154604,16,0x154520,AX,0x154534,RPM,21229,21229,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x06F,Cluster A :: Curve 8pt [vs ?] #06F,1,8pt,0x1544B0,8,0x1544B8,AX,,,63,128,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x070,Cluster A :: Curve 10pt [vs ?] #070,1,10pt,0x1545F8,8,0x1545EC,AX,,,74,128,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x072,Cluster A :: Curve 22pt [vs ?] #072,1,22pt,0x15739C,8,0x154DCC,AX,,,147,184,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x073,Cluster A :: Curve 22pt [vs ?] #073,1,22pt,0x1573B4,8,0x154DCC,AX,,,147,184,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x074,Cluster A :: Curve 22pt [vs ?] #074 (flat),1,22pt,0x1573CC,8,0x154DCC,AX,,,128,128,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x075,Cluster A :: Curve 8pt [vs ?] #075,1,8pt,0x1549FC,8,0x154B2C,TEMP?,,,43,72,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x076,Cluster A :: Curve 9pt [vs TP] #076,1,9pt,0x157C84,8,0x1573E4,TP,,,0,13,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x077,Cluster A :: Curve 22pt [vs ?] #077,1,22pt,0x1573F8,8,0x154DCC,AX,,,28,65,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x078,Cluster A :: Curve 21pt [vs ?] #078,1,21pt,0x157C90,8,0x157410,TEMP?,,,102,132,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x079,Cluster A :: Curve 13pt [vs RPM] #079,1,13pt,0x157CA8,8,0x15743C,RPM,,,0,77,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x07A,Cluster A :: Curve 25pt [vs ?] #07A,1,25pt,0x157CD4,8,0x157CB8,AX,,,118,142,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x07B,Cluster A :: Curve 22pt [vs ?] #07B,1,22pt,0x157470,8,0x157458,AX,,,8,246,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x07C,Cluster A :: Curve 22pt [vs ?] #07C,1,22pt,0x1574A0,8,0x157488,AX,,,0,246,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x07D,Cluster A :: Curve 11pt [vs ?] #07D,1,11pt,0x157CF0,8,0x1574B8,AX,,,79,96,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x07E,Cluster A :: Curve 6pt [vs TP] #07E (flat),1,6pt,0x154AAC,8,0x154F38,TP,,,128,128,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x07F,Cluster A :: Curve 8pt [vs ?] #07F,1,8pt,0x154A04,8,0x154B3C,AX,,,60,141,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x080,Cluster A :: Curve 22pt [vs ?] #080,1,22pt,0x1574D0,8,0x154DCC,AX,,,124,156,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x081,Cluster A :: Curve 22pt [vs ?] #081,1,22pt,0x1574E8,8,0x154DCC,AX,,,124,156,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x082,Cluster A :: Curve 21pt [vs ?] #082,1,21pt,0x157CFC,8,0x157500,AX,,,84,153,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x083,Cluster A :: Curve 21pt [vs ?] #083,1,21pt,0x157D14,8,0x15752C,AX,,,63,159,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x084,Cluster A :: Curve 21pt [vs ?] #084,1,21pt,0x157D44,8,0x157D2C,AX,,,109,166,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x088,Cluster A :: Curve 22pt [vs ?] #088,1,22pt,0x157558,8,0x154DCC,AX,,,2,41,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x089,Cluster A :: Curve 22pt [vs ?] #089 (flat),1,22pt,0x157570,8,0x154DCC,AX,,,1,1,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x08A,Cluster A :: Curve 22pt [vs ?] #08A (flat),1,22pt,0x157588,8,0x154DCC,AX,,,1,1,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x08B,Cluster A :: Curve 17pt [vs RPM] #08B,1,17pt,0x1575C4,16,0x1575A0,RPM,,,17062,33967,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x08C,Cluster A :: Curve 14pt [vs ?] #08C,1,14pt,0x1575F8,8,0x1575E8,AX,,,11,90,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x08D,Cluster A :: Curve 14pt [vs ?] #08D,1,14pt,0x157618,8,0x157608,AX,,,0,191,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x08E,Cluster A :: Curve 17pt [vs RPM] #08E,1,17pt,0x157D5C,8,0x157628,RPM,,,45,64,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x08F,Cluster A :: Curve 17pt [vs RPM] #08F,1,17pt,0x157D70,8,0x15764C,RPM,,,45,64,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x090,Cluster A :: Curve 10pt [vs RPM] #090,1,10pt,0x155144,16,0x155130,RPM,,,0,256,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x091,Cluster A :: Curve 39pt [vs RPM] #091 (flat),1,39pt,0x157E48,16,0x157DF8,RPM,,,194,194,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x092,Cluster A :: Curve 39pt [vs RPM] #092 (flat),1,39pt,0x157EE8,16,0x157E98,RPM,,,126,126,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x094,Cluster A :: Curve 7pt [vs RPM] #094,1,7pt,0x154AB4,8,0x157670,RPM,,,8,9,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x095,Cluster A :: Curve 7pt [vs RPM] #095,1,7pt,0x154ABC,8,0x157680,RPM,,,8,9,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x096,Cluster A :: Curve 7pt [vs RPM] #096,1,7pt,0x154AC4,8,0x157690,RPM,,,8,9,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x097,Cluster A :: Curve 7pt [vs RPM] #097,1,7pt,0x154ACC,8,0x1576A0,RPM,,,8,9,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x098,Cluster A :: Curve 7pt [vs RPM] #098,1,7pt,0x154AD4,8,0x1576B0,RPM,,,3,10,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x099,Cluster A :: Curve 7pt [vs RPM] #099,1,7pt,0x154ADC,8,0x1576C0,RPM,,,3,10,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x09A,Cluster A :: Curve 7pt [vs RPM] #09A,1,7pt,0x154AE4,8,0x1576D0,RPM,,,0,5,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x09B,Cluster A :: Curve 7pt [vs RPM] #09B,1,7pt,0x154AEC,8,0x1576E0,RPM,,,0,5,False,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x09C,Cluster A :: Curve 7pt [vs RPM] #09C (flat),1,7pt,0x157700,16,0x1576F0,RPM,,,15,15,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x09D,Cluster A :: Curve 7pt [vs RPM] #09D (flat),1,7pt,0x157720,16,0x157710,RPM,,,15,15,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x09E,Cluster A :: Curve 7pt [vs RPM] #09E (flat),1,7pt,0x157740,16,0x157730,RPM,,,15,15,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x09F,Cluster A :: Curve 7pt [vs RPM] #09F (flat),1,7pt,0x157760,16,0x157750,RPM,,,15,15,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x0A0,Cluster A :: Curve 8pt [vs RPM] #0A0 (flat),1,8pt,0x154A2C,8,0x154B4C,RPM,,,100,100,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x0A1,Cluster A :: Curve 8pt [vs RPM] #0A1 (flat),1,8pt,0x154A34,8,0x154B5C,RPM,,,100,100,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x0A2,Cluster A :: Curve 8pt [vs RPM] #0A2 (flat),1,8pt,0x154A3C,8,0x154B6C,RPM,,,100,100,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x0A3,Cluster A :: Curve 8pt [vs RPM] #0A3 (flat),1,8pt,0x154A44,8,0x154B7C,RPM,,,100,100,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x0A4,Cluster A :: Curve 8pt [vs RPM] #0A4 (flat),1,8pt,0x154A4C,8,0x154B8C,RPM,,,100,100,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x0A5,Cluster A :: Curve 8pt [vs RPM] #0A5 (flat),1,8pt,0x154A54,8,0x154B9C,RPM,,,100,100,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x0A6,Cluster A :: Curve 8pt [vs RPM] #0A6 (flat),1,8pt,0x154A5C,8,0x154BAC,RPM,,,100,100,True,False,Unidentified - Cluster A (IDs 0x005-0x0AB)
+0x0AD,Cluster B :: Map 7x7 [? × ?] #0AD,2,7x7,0x157D84,8,0x154AF4,AX,0x154AFC,AX,58,128,False,False,"Unidentified - Cluster B (IDs 0x0AD-0x0F1, pre-fuel)"
+0x0AF,SEC INJ - TPS | Aux 1,2,10x14,0x158398,8,0x155420,AX,0x155434,RPM,1,243,False,False,Fuel
+0x0B1,SEC INJ - TPS | Aux 2,2,10x14,0x158424,8,0x15546C,AX,0x155480,RPM,1,243,False,False,Fuel
+0x0B3,Cluster B :: Map 6x17 [TP × RPM] #0B3,2,6x17,0x1584B0,8,0x1554B8,TP,0x157794,RPM,0,45,False,False,"Unidentified - Cluster B (IDs 0x0AD-0x0F1, pre-fuel)"
+0x0B5,Cluster B :: Map 6x17 [TP × RPM] #0B5,2,6x17,0x158518,8,0x1554E0,TP,0x1577B8,RPM,0,47,False,False,"Unidentified - Cluster B (IDs 0x0AD-0x0F1, pre-fuel)"
+0x0B7,Fuel Trim - TPS | Main,2,26x38,0x1585CC,16,0x155508,AX,0x158580,RPM,29639,34963,False,False,Fuel
+0x0B9,Cluster B :: Map 13x19 [? × RPM] #0B9 (flat),2,13x19,0x158D84,16,0x1577DC,AX,0x1577F8,RPM,31457,31457,True,False,"Unidentified - Cluster B (IDs 0x0AD-0x0F1, pre-fuel)"
+0x0BB,SEC INJ - TPS | Set 1 Map 1,2,10x14,0x158F74,8,0x155574,AX,0x155588,RPM,0,2,False,False,Fuel
+0x0BD,SEC INJ - TPS | Set 1 Map 2,2,10x14,0x159000,8,0x155574,AX,0x155588,RPM,0,2,False,False,Fuel
+0x0BF,SEC INJ - TPS | Set 1 Map 3,2,10x14,0x15908C,8,0x1555DC,AX,0x1555F0,RPM,0,2,False,False,Fuel
+0x0C1,SEC INJ - TPS | Set 1 Map 4,2,10x14,0x159118,8,0x1555DC,AX,0x1555F0,RPM,0,2,False,False,Fuel
+0x0C3,SEC INJ - TPS | Set 1 Map 5,2,10x14,0x1591A4,8,0x155644,AX,0x155658,RPM,0,2,False,False,Fuel
+0x0C5,SEC INJ - TPS | Set 1 Map 6,2,10x14,0x159230,8,0x155644,AX,0x155658,RPM,0,2,False,False,Fuel
+0x0C7,SEC INJ - IAP | Set 1 Map 1,2,10x14,0x1592BC,8,0x1556AC,PRESS,0x1556C0,RPM,0,1,False,False,Fuel
+0x0C9,SEC INJ - IAP | Set 1 Map 2,2,10x14,0x159348,8,0x1556AC,PRESS,0x1556C0,RPM,0,1,False,False,Fuel
+0x0CB,SEC INJ - TPS | Set 2 Map 1,2,10x14,0x1593D4,8,0x155714,AX,0x155728,RPM,2,2,True,False,Fuel
+0x0CD,SEC INJ - TPS | Set 2 Map 2,2,10x14,0x159460,8,0x155714,AX,0x155728,RPM,2,2,True,False,Fuel
+0x0CF,SEC INJ - TPS | Set 2 Map 3,2,10x14,0x1594EC,8,0x15577C,AX,0x155790,RPM,0,2,False,False,Fuel
+0x0D1,SEC INJ - TPS | Set 2 Map 4,2,10x14,0x159578,8,0x15577C,AX,0x155790,RPM,0,2,False,False,Fuel
+0x0D3,SEC INJ - TPS | Set 2 Map 5,2,10x14,0x159604,8,0x1557E4,AX,0x1557F8,RPM,0,2,False,False,Fuel
+0x0D5,SEC INJ - TPS | Set 2 Map 6,2,10x14,0x159690,8,0x1557E4,AX,0x1557F8,RPM,0,2,False,False,Fuel
+0x0D7,SEC INJ - IAP | Set 2 Map 1,2,10x14,0x15971C,8,0x15584C,PRESS,0x155860,RPM,0,1,False,False,Fuel
+0x0D9,SEC INJ - IAP | Set 2 Map 2,2,10x14,0x1597A8,8,0x15584C,PRESS,0x155860,RPM,0,1,False,False,Fuel
+0x0DB,Cluster B :: Map 7x7 [? × RPM] #0DB,2,7x7,0x154BBC,8,0x157820,AX,0x157830,RPM,118,128,False,False,"Unidentified - Cluster B (IDs 0x0AD-0x0F1, pre-fuel)"
+0x0DD,Cluster B :: Map 7x7 [? × RPM] #0DD,2,7x7,0x154BF4,8,0x157840,AX,0x157850,RPM,118,128,False,False,"Unidentified - Cluster B (IDs 0x0AD-0x0F1, pre-fuel)"
+0x0DF,Cluster B :: Map 7x7 [? × RPM] #0DF,2,7x7,0x154C2C,8,0x157860,AX,0x157870,RPM,118,128,False,False,"Unidentified - Cluster B (IDs 0x0AD-0x0F1, pre-fuel)"
+0x0E1,Cluster B :: Map 7x7 [? × RPM] #0E1,2,7x7,0x154C64,8,0x157880,AX,0x157890,RPM,118,128,False,False,"Unidentified - Cluster B (IDs 0x0AD-0x0F1, pre-fuel)"
+0x0E3,Cluster B :: Map 7x7 [? × RPM] #0E3,2,7x7,0x154C9C,8,0x1578A0,AX,0x1578B0,RPM,128,254,False,False,"Unidentified - Cluster B (IDs 0x0AD-0x0F1, pre-fuel)"
+0x0E5,Cluster B :: Map 7x7 [? × RPM] #0E5,2,7x7,0x154CD4,8,0x1578C0,AX,0x1578D0,RPM,128,254,False,False,"Unidentified - Cluster B (IDs 0x0AD-0x0F1, pre-fuel)"
+0x0E7,Cluster B :: Map 7x7 [? × RPM] #0E7,2,7x7,0x154D0C,8,0x1578E0,AX,0x1578F0,RPM,128,254,False,False,"Unidentified - Cluster B (IDs 0x0AD-0x0F1, pre-fuel)"
+0x0E9,Cluster B :: Map 7x7 [? × RPM] #0E9,2,7x7,0x154D44,8,0x157900,AX,0x157910,RPM,128,254,False,False,"Unidentified - Cluster B (IDs 0x0AD-0x0F1, pre-fuel)"
+0x0EB,Fuel Trim - TPS | 1,2,10x20,0x159834,8,0x154DF8,AX,0x154B04,RPM,43,177,False,False,Fuel
+0x0ED,Fuel Trim - TPS | 2,2,10x20,0x1598FC,8,0x154DF8,AX,0x154B04,RPM,43,177,False,False,Fuel
+0x0EF,Fuel Trim - TPS | 3,2,10x20,0x1599C4,8,0x154DF8,AX,0x154B04,RPM,86,167,False,False,Fuel
+0x0F1,Fuel Trim - TPS | 4,2,10x20,0x159A8C,8,0x154DF8,AX,0x154B04,RPM,124,178,False,False,Fuel
+0x0F3,IAP - Mode A | Gear 1,2,30x50,0x159BB8,16,0x155A04,PRESS,0x159B54,RPM,532,4872,False,False,Fuel
+0x0F5,IAP - Mode A | Gear 2,2,30x50,0x15A7D4,16,0x155A5C,PRESS,0x15A770,RPM,532,4872,False,False,Fuel
+0x0F7,IAP - Mode A | Gear 3,2,30x50,0x15B3F0,16,0x155AB4,PRESS,0x15B38C,RPM,532,4872,False,False,Fuel
+0x0F9,IAP - Mode A | Gear 4,2,30x50,0x15C00C,16,0x155B0C,PRESS,0x15BFA8,RPM,532,4872,False,False,Fuel
+0x0FB,IAP - Mode A | Gear 5,2,30x50,0x15CC28,16,0x155B64,PRESS,0x15CBC4,RPM,532,4872,False,False,Fuel
+0x0FD,IAP - Mode A | Gear 6,2,30x50,0x15D844,16,0x155BBC,PRESS,0x15D7E0,RPM,532,4872,False,False,Fuel
+0x0FF,IAP - Mode B | Gear 1,2,30x50,0x15E460,16,0x155C14,PRESS,0x15E3FC,RPM,504,4760,False,False,Fuel
+0x101,IAP - Mode B | Gear 2,2,30x50,0x15F07C,16,0x155C6C,PRESS,0x15F018,RPM,504,4760,False,False,Fuel
+0x103,IAP - Mode B | Gear 3,2,30x50,0x15FC98,16,0x155CC4,PRESS,0x15FC34,RPM,504,4760,False,False,Fuel
+0x105,IAP - Mode B | Gear 4,2,30x50,0x1608B4,16,0x155D1C,PRESS,0x160850,RPM,504,4760,False,False,Fuel
+0x107,IAP - Mode B | Gear 5,2,30x50,0x1614D0,16,0x155D74,PRESS,0x16146C,RPM,504,4760,False,False,Fuel
+0x109,IAP - Mode B | Gear 6,2,30x50,0x1620EC,16,0x155DCC,PRESS,0x162088,RPM,504,4760,False,False,Fuel
+0x10B,IAP - Mode C | Gear 1,2,30x50,0x162D08,16,0x155E24,PRESS,0x162CA4,RPM,512,4745,False,False,Fuel
+0x10D,IAP - Mode C | Gear 2,2,30x50,0x163924,16,0x155E7C,PRESS,0x1638C0,RPM,512,4745,False,False,Fuel
+0x10F,IAP - Mode C | Gear 3,2,30x50,0x164540,16,0x155ED4,PRESS,0x1644DC,RPM,512,4745,False,False,Fuel
+0x111,IAP - Mode C | Gear 4,2,30x50,0x16515C,16,0x155F2C,PRESS,0x1650F8,RPM,512,4745,False,False,Fuel
+0x113,IAP - Mode C | Gear 5,2,30x50,0x165D78,16,0x155F84,PRESS,0x165D14,RPM,512,4745,False,False,Fuel
+0x115,IAP - Mode C | Gear 6,2,30x50,0x166994,16,0x155FDC,PRESS,0x166930,RPM,512,4745,False,False,Fuel
+0x117,IAP - User Mode | Gear 1,2,30x50,0x1675B0,16,0x156034,PRESS,0x16754C,RPM,498,4782,False,False,Fuel
+0x119,IAP - User Mode | Gear 2,2,30x50,0x1681CC,16,0x15608C,PRESS,0x168168,RPM,498,4782,False,False,Fuel
+0x11B,IAP - User Mode | Gear 3,2,30x50,0x168DE8,16,0x1560E4,PRESS,0x168D84,RPM,498,4782,False,False,Fuel
+0x11D,IAP - User Mode | Gear 4,2,30x50,0x169A04,16,0x15613C,PRESS,0x1699A0,RPM,498,4782,False,False,Fuel
+0x11F,IAP - User Mode | Gear 5,2,30x50,0x16A620,16,0x156194,PRESS,0x16A5BC,RPM,498,4782,False,False,Fuel
+0x121,IAP - User Mode | Gear 6,2,30x50,0x16B23C,16,0x1561EC,PRESS,0x16B1D8,RPM,498,4782,False,False,Fuel
+0x123,IAP - Neutral/Clutch-In | Cyl 1,2,30x50,0x16BEB8,16,0x156244,PRESS,0x16BE54,RPM,535,4872,False,False,Fuel
+0x125,IAP - Neutral/Clutch-In | Cyl 2,2,30x50,0x16CAD4,16,0x15629C,PRESS,0x16CA70,RPM,504,4760,False,False,Fuel
+0x127,IAP - Neutral/Clutch-In | Cyl 3,2,30x50,0x16D6F0,16,0x1562F4,PRESS,0x16D68C,RPM,517,4745,False,False,Fuel
+0x129,IAP - Neutral/Clutch-In | Cyl 4,2,30x50,0x16E30C,16,0x15634C,PRESS,0x16E2A8,RPM,512,4782,False,False,Fuel
+0x12B,TPS - Mode A | Gear 1,2,26x50,0x16EF28,16,0x1563A4,TP,0x16EEC4,RPM,467,5351,False,False,Fuel
+0x12D,TPS - Mode A | Gear 2,2,26x50,0x16F9B4,16,0x1563F4,TP,0x16F950,RPM,467,5351,False,False,Fuel
+0x12F,TPS - Mode A | Gear 3,2,26x50,0x170440,16,0x156444,TP,0x1703DC,RPM,467,5351,False,False,Fuel
+0x131,TPS - Mode A | Gear 4,2,26x50,0x170ECC,16,0x156494,TP,0x170E68,RPM,467,5351,False,False,Fuel
+0x133,TPS - Mode A | Gear 5,2,26x50,0x171958,16,0x1564E4,TP,0x1718F4,RPM,467,5351,False,False,Fuel
+0x135,TPS - Mode A | Gear 6,2,26x50,0x1723E4,16,0x156534,TP,0x172380,RPM,467,5351,False,False,Fuel
+0x137,TPS - Mode B | Gear 1,2,26x50,0x172E70,16,0x156584,TP,0x172E0C,RPM,454,5132,False,False,Fuel
+0x139,TPS - Mode B | Gear 2,2,26x50,0x1738FC,16,0x1565D4,TP,0x173898,RPM,454,5132,False,False,Fuel
+0x13B,TPS - Mode B | Gear 3,2,26x50,0x174388,16,0x156624,TP,0x174324,RPM,454,5132,False,False,Fuel
+0x13D,TPS - Mode B | Gear 4,2,26x50,0x174E14,16,0x156674,TP,0x174DB0,RPM,454,5132,False,False,Fuel
+0x13F,TPS - Mode B | Gear 5,2,26x50,0x1758A0,16,0x1566C4,TP,0x17583C,RPM,454,5132,False,False,Fuel
+0x141,TPS - Mode B | Gear 6,2,26x50,0x17632C,16,0x156714,TP,0x1762C8,RPM,454,5132,False,False,Fuel
+0x143,TPS - Mode C | Gear 1,2,26x50,0x176DB8,16,0x156764,TP,0x176D54,RPM,449,5162,False,False,Fuel
+0x145,TPS - Mode C | Gear 2,2,26x50,0x177844,16,0x1567B4,TP,0x1777E0,RPM,449,5162,False,False,Fuel
+0x147,TPS - Mode C | Gear 3,2,26x50,0x1782D0,16,0x156804,TP,0x17826C,RPM,449,5162,False,False,Fuel
+0x149,TPS - Mode C | Gear 4,2,26x50,0x178D5C,16,0x156854,TP,0x178CF8,RPM,449,5162,False,False,Fuel
+0x14B,TPS - Mode C | Gear 5,2,26x50,0x1797E8,16,0x1568A4,TP,0x179784,RPM,449,5162,False,False,Fuel
+0x14D,TPS - Mode C | Gear 6,2,26x50,0x17A274,16,0x1568F4,TP,0x17A210,RPM,449,5162,False,False,Fuel
+0x14F,TPS - User Mode | Gear 1,2,26x50,0x17AD00,16,0x156944,TP,0x17AC9C,RPM,454,5257,False,False,Fuel
+0x151,TPS - User Mode | Gear 2,2,26x50,0x17B78C,16,0x156994,TP,0x17B728,RPM,454,5257,False,False,Fuel
+0x153,TPS - User Mode | Gear 3,2,26x50,0x17C218,16,0x1569E4,TP,0x17C1B4,RPM,454,5257,False,False,Fuel
+0x155,TPS - User Mode | Gear 4,2,26x50,0x17CCA4,16,0x156A34,TP,0x17CC40,RPM,454,5257,False,False,Fuel
+0x157,TPS - User Mode | Gear 5,2,26x50,0x17D730,16,0x156A84,TP,0x17D6CC,RPM,454,5257,False,False,Fuel
+0x159,TPS - User Mode | Gear 6,2,26x50,0x17E1BC,16,0x156AD4,TP,0x17E158,RPM,454,5257,False,False,Fuel
+0x15B,TPS - Neutral/Clutch-In | Cyl 1,2,26x50,0x17ECA8,16,0x156B24,TP,0x17EC44,RPM,467,5351,False,False,Fuel
+0x15D,TPS - Neutral/Clutch-In | Cyl 2,2,26x50,0x17F734,16,0x156B74,TP,0x17F6D0,RPM,454,5132,False,False,Fuel
+0x15F,TPS - Neutral/Clutch-In | Cyl 3,2,26x50,0x1801C0,16,0x156BC4,TP,0x18015C,RPM,449,5162,False,False,Fuel
+0x161,TPS - Neutral/Clutch-In | Cyl 4,2,26x50,0x180C4C,16,0x156C14,TP,0x180BE8,RPM,454,5257,False,False,Fuel
+0x163,Cluster C :: Map 39x7 [RPM × ?] #163 (flat),2,39x7,0x1816C4,8,0x181674,RPM,0x157920,AX,28,28,True,False,Unidentified - Cluster C (IDs 0x163-0x181)
+0x165,Cluster C :: Map 39x7 [RPM × ?] #165 (flat),2,39x7,0x181828,8,0x1817D8,RPM,0x157930,AX,12,12,True,False,Unidentified - Cluster C (IDs 0x163-0x181)
+0x167,Cluster C :: Map 39x7 [RPM × ?] #167 (flat),2,39x7,0x18198C,8,0x18193C,RPM,0x157940,AX,8,8,True,False,Unidentified - Cluster C (IDs 0x163-0x181)
+0x169,Cluster C :: Curve 15pt [vs RPM] #169,1,15pt,0x157DB8,8,0x157950,RPM,,,128,153,False,False,Unidentified - Cluster C (IDs 0x163-0x181)
+0x16A,Cluster C :: Curve 15pt [vs RPM] #16A,1,15pt,0x157DC8,8,0x157970,RPM,,,128,160,False,False,Unidentified - Cluster C (IDs 0x163-0x181)
+0x16B,Cluster C :: Curve 15pt [vs RPM] #16B,1,15pt,0x157DD8,8,0x157990,RPM,,,128,168,False,False,Unidentified - Cluster C (IDs 0x163-0x181)
+0x16C,Cluster C :: Curve 15pt [vs RPM] #16C,1,15pt,0x157DE8,8,0x1579B0,RPM,,,128,176,False,False,Unidentified - Cluster C (IDs 0x163-0x181)
+0x16D,Cluster C :: Curve 7pt [vs ?] #16D,1,7pt,0x1579E0,16,0x1579D0,AX,,,255,1355,False,False,Unidentified - Cluster C (IDs 0x163-0x181)
+0x16E,Cluster C :: Curve 7pt [vs ?] #16E,1,7pt,0x157A00,16,0x1579F0,AX,,,177,1375,False,False,Unidentified - Cluster C (IDs 0x163-0x181)
+0x16F,Cluster C :: Map 23x9 [? × ?] #16F (flat),2,23x9,0x181AA0,8,0x157A10,AX,0x157A40,AX,128,128,True,False,Unidentified - Cluster C (IDs 0x163-0x181)
+0x171,Cluster C :: Map 23x9 [? × ?] #171 (flat),2,23x9,0x181B70,8,0x157A54,AX,0x157A84,AX,128,128,True,False,Unidentified - Cluster C (IDs 0x163-0x181)
+0x182,IGN :: Correction - 1,1,9pt,0x157C28,16,0x157C14,RPM,,,15565,31130,False,False,Ignition
+0x184,IGN :: Correction - 2,1,16pt,0x154DBC,8,0x154D9C,RPM,,,20,20,True,False,Ignition
+0x185,IGN :: Correction - 3,1,18pt,0x156F64,16,0x156F40,RPM,,,1,12,False,False,Ignition
+0x186,IGN :: Correction - 4,1,18pt,0x156FC0,16,0x156F9C,RPM,,,2065,4770,False,False,Ignition
+0x187,IGN :: Correction - 5,1,18pt,0x15701C,16,0x156FF8,RPM,,,54,83,False,False,Ignition
+0x188,IGN :: Correction - 6,1,18pt,0x157078,16,0x157054,RPM,,,3277,5243,False,False,Ignition
+0x189,IGN :: Correction - 7,1,18pt,0x1570D4,16,0x1570B0,RPM,,,2065,4770,False,False,Ignition
+0x18A,IGN :: Correction - 8,1,18pt,0x157130,16,0x15710C,RPM,,,107,165,False,False,Ignition
+0x18B,IGN :: Correction - 9,1,18pt,0x15718C,16,0x157168,RPM,,,4260,4260,True,False,Ignition
+0x18C,IGN :: Correction - 10,1,18pt,0x1571E8,16,0x1571C4,RPM,,,655,1022,False,False,Ignition
+0x18D,IGN :: Correction - 11,1,18pt,0x157244,16,0x157220,RPM,,,819,1277,False,False,Ignition
+0x18E,IGN :: Correction - 12,1,18pt,0x1572A0,16,0x15727C,RPM,,,32768,32768,True,False,Ignition
+0x18F,IGN :: Correction - 13,1,18pt,0x1572FC,16,0x1572D8,RPM,,,4096,4096,True,False,Ignition
+0x190,IGN :: Correction Map - 1,2,10x18,0x182324,16,0x157334,TP,0x157348,RPM,6554,32768,False,False,Ignition
+0x192,IGN :: Correction - 14,1,13pt,0x157C68,16,0x157C4C,AX,,,3042,14500,False,False,Ignition
+0x194,IGN :: Correction - 15,1,22pt,0x184A84,8,0x182D68,AX,,,0,0,True,False,Ignition
+0x195,IGN :: Correction - 16,1,22pt,0x184A9C,8,0x182D68,AX,,,0,0,True,False,Ignition
+0x196,IGN :: Correction - 17,1,22pt,0x184AB4,8,0x182D68,AX,,,0,0,True,False,Ignition
+0x197,IGN :: Correction - 18,1,22pt,0x184ACC,8,0x182D68,AX,,,0,0,True,False,Ignition
+0x198,IGN :: Correction - 19,1,22pt,0x184AE4,8,0x182D68,AX,,,0,0,True,False,Ignition
+0x199,IGN :: Correction - 20,1,10pt,0x184AFC,8,0x182E0C,RPM,,,0,0,True,False,Ignition
+0x19A,IGN :: Correction - 21,1,21pt,0x186BE8,8,0x186BD0,AX,,,64,64,True,False,Ignition
+0x19B,IGN :: Correction - 22,1,5pt,0x1828B0,8,0x184B08,RPM,,,21,47,False,False,Ignition
+0x19C,IGN :: Correction - 23,1,27pt,0x186C00,8,0x184B14,AX,,,0,99,False,False,Ignition
+0x19D,IGN :: Correction - 24,1,22pt,0x184B4C,8,0x182D68,AX,,,2,24,False,False,Ignition
+0x19E,IGN :: Correction - 25,1,5pt,0x1828C0,8,0x1828B8,AX,,,0,0,True,False,Ignition
+0x19F,IGN :: Correction - 26,1,8pt,0x1828E8,16,0x1828D8,RPM,,,765,765,True,False,Ignition
+0x1A0,IGN :: Correction - 27,1,8pt,0x182908,16,0x1828F8,RPM,,,1091,3392,False,False,Ignition
+0x1A1,IGN :: Correction - 28,1,8pt,0x182928,16,0x182918,RPM,,,765,765,True,False,Ignition
+0x1A2,IGN :: Correction - 29,1,8pt,0x182948,16,0x182938,RPM,,,1091,3392,False,False,Ignition
+0x1A3,IGN :: Correction - 30,1,8pt,0x182968,16,0x182958,RPM,,,765,765,True,False,Ignition
+0x1A4,IGN :: Correction - 31,1,8pt,0x182988,16,0x182978,RPM,,,1091,3392,False,False,Ignition
+0x1A5,IGN :: Correction - 32,1,8pt,0x1829A8,16,0x182998,RPM,,,765,765,True,False,Ignition
+0x1A6,IGN :: Correction - 33,1,8pt,0x1829C8,16,0x1829B8,RPM,,,1091,3392,False,False,Ignition
+0x1A7,IGN :: Correction - 34,1,8pt,0x1829E8,16,0x1829D8,RPM,,,765,765,True,False,Ignition
+0x1A8,IGN :: Correction - 35,1,8pt,0x182A08,16,0x1829F8,RPM,,,1091,3392,False,False,Ignition
+0x1A9,IGN :: Correction - 36,1,8pt,0x182A28,16,0x182A18,RPM,,,765,765,True,False,Ignition
+0x1AA,IGN :: Correction - 37,1,8pt,0x182A48,16,0x182A38,RPM,,,1091,3392,False,False,Ignition
+0x1AB,IGN :: Correction - 38,1,5pt,0x1828D0,8,0x1828C8,AX,,,128,128,True,False,Ignition
+0x1AD,IGN :: Correction - 39,1,14pt,0x184B84,8,0x184B74,AX,,,0,128,False,False,Ignition
+0x1AE,IGN :: Correction - 40,1,29pt,0x186C1C,8,0x184B94,RPM,,,105,166,False,False,Ignition
+0x1AF,IGN :: Correction - 41,1,29pt,0x186C3C,8,0x184BD0,RPM,,,146,168,False,False,Ignition
+0x1B0,IGN :: Correction - 42,1,29pt,0x186C5C,8,0x184C0C,RPM,,,146,168,False,False,Ignition
+0x1B1,IGN :: Correction - 43,1,29pt,0x186C7C,8,0x184C48,RPM,,,105,166,False,False,Ignition
+0x1B2,IGN :: Correction - 44,1,10pt,0x184C90,8,0x184C84,AX,,,96,153,False,False,Ignition
+0x1B3,IGN :: Volt-Dwell - 1,2,9x20,0x187134,16,0x184C9C,AX,0x182A68,RPM,496,3808,False,False,Ignition
+0x1B5,IGN :: Volt-Dwell - 2,2,9x20,0x18729C,16,0x184CB0,AX,0x182A90,RPM,326,3808,False,False,Ignition
+0x1B7,IGN :: Offset Timing - 1,2,23x39,0x187404,8,0x18483C,TP,0x186DC4,RPM,53,157,False,False,Ignition
+0x1B9,IGN :: Offset Timing - 2,2,23x39,0x187788,8,0x18486C,TP,0x186E14,RPM,64,151,False,False,Ignition
+0x1BB,IGN :: Offset Timing - 3,2,23x39,0x187B0C,8,0x18489C,TP,0x186E64,RPM,64,144,False,False,Ignition
+0x1BD,IGN :: Offset Timing - 4,2,23x39,0x187E90,8,0x1848CC,TP,0x186EB4,RPM,64,144,False,False,Ignition
+0x1BF,IGN :: Offset Timing - 5,2,23x39,0x188214,8,0x1848FC,TP,0x186F04,RPM,64,64,True,False,Ignition
+0x1C1,IGN :: Offset Timing - 6,2,23x39,0x188598,8,0x18492C,TP,0x186F54,RPM,64,64,True,False,Ignition
+0x1C3,IGN :: Offset Timing - 7,2,23x39,0x18891C,8,0x18495C,TP,0x186FA4,RPM,64,64,True,False,Ignition
+0x1C5,IGN :: Offset Timing - 8,2,23x39,0x188CA0,8,0x18498C,TP,0x186FF4,RPM,64,64,True,False,Ignition
+0x1C7,IGN :: Offset Timing - 9,2,23x39,0x189024,8,0x1849BC,TP,0x187044,RPM,64,64,True,False,Ignition
+0x1C9,IGN :: Offset Timing - 10,2,23x39,0x1893A8,8,0x1849EC,TP,0x187094,RPM,64,105,False,False,Ignition
+0x1CB,IGN :: Offset Timing - 11,2,23x39,0x18972C,8,0x1849EC,TP,0x187094,RPM,63,104,False,False,Ignition
+0x1CD,IGN :: Offset Timing - 12,2,23x39,0x189AB0,8,0x1849EC,TP,0x187094,RPM,64,64,True,False,Ignition
+0x1CF,IGN :: Offset Timing - 13,2,23x39,0x189E34,8,0x1849EC,TP,0x187094,RPM,64,64,True,False,Ignition
+0x1D1,IGN :: Advance Timing - Cyl 1,2,23x39,0x18A1B8,8,0x184A1C,TP,0x1870E4,RPM,85,255,False,False,Ignition
+0x1D3,IGN :: Advance Timing - Cyl 2,2,23x39,0x18A53C,8,0x184A1C,TP,0x1870E4,RPM,85,255,False,False,Ignition
+0x1D5,IGN :: Advance Timing - Cyl 3,2,23x39,0x18A8C0,8,0x184A1C,TP,0x1870E4,RPM,85,255,False,False,Ignition
+0x1D7,IGN :: Advance Timing - Cyl 4,2,23x39,0x18AC44,8,0x184A1C,TP,0x1870E4,RPM,85,255,False,False,Ignition
+0x1D9,Cluster D :: Map 15x3 [? × RPM] #1D9,2,15x3,0x186C9C,8,0x184A4C,AX,0x1828A8,RPM,52,118,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1DB,Cluster D :: Map 15x3 [? × RPM] #1DB,2,15x3,0x186CCC,8,0x184A4C,AX,0x1828A8,RPM,52,118,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1DD,Cluster D :: Map 15x3 [? × RPM] #1DD,2,15x3,0x186CFC,8,0x184A4C,AX,0x1828A8,RPM,64,101,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1E5,Cluster D :: Curve 39pt [vs RPM] #1E5,1,39pt,0x18B018,16,0x18AFC8,RPM,,,1406,9345,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1E6,Cluster D :: Curve 39pt [vs RPM] #1E6,1,39pt,0x18B0B8,16,0x18B068,RPM,,,5269,14676,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1E7,Cluster D :: Curve 8pt [vs ?] #1E7 (flat),1,8pt,0x1828A0,8,0x182898,AX,,,128,128,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1E8,Cluster D :: Curve 21pt [vs ?] #1E8,1,21pt,0x184DB0,16,0x184D84,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1E9,Cluster D :: Curve 21pt [vs ?] #1E9,1,21pt,0x184E08,16,0x184DDC,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1EA,Cluster D :: Curve 21pt [vs ?] #1EA,1,21pt,0x184E60,16,0x184E34,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1EB,Cluster D :: Curve 21pt [vs ?] #1EB,1,21pt,0x184EB8,16,0x184E8C,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1EC,Cluster D :: Curve 21pt [vs ?] #1EC,1,21pt,0x184F10,16,0x184EE4,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1ED,Cluster D :: Curve 21pt [vs ?] #1ED,1,21pt,0x184F68,16,0x184F3C,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1EE,Cluster D :: Curve 21pt [vs ?] #1EE,1,21pt,0x184FC0,16,0x184F94,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1EF,Cluster D :: Curve 21pt [vs ?] #1EF,1,21pt,0x185018,16,0x184FEC,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1F0,Cluster D :: Curve 21pt [vs ?] #1F0,1,21pt,0x185070,16,0x185044,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1F1,Cluster D :: Curve 21pt [vs ?] #1F1,1,21pt,0x1850C8,16,0x18509C,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1F2,Cluster D :: Curve 21pt [vs ?] #1F2,1,21pt,0x185120,16,0x1850F4,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1F3,Cluster D :: Curve 21pt [vs ?] #1F3,1,21pt,0x185178,16,0x18514C,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1F4,Cluster D :: Curve 21pt [vs ?] #1F4,1,21pt,0x1851D0,16,0x1851A4,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1F5,Cluster D :: Curve 21pt [vs ?] #1F5,1,21pt,0x185228,16,0x1851FC,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1F6,Cluster D :: Curve 21pt [vs ?] #1F6,1,21pt,0x185280,16,0x185254,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1F7,Cluster D :: Curve 21pt [vs ?] #1F7,1,21pt,0x1852D8,16,0x1852AC,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1F8,Cluster D :: Curve 21pt [vs ?] #1F8,1,21pt,0x185330,16,0x185304,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1F9,Cluster D :: Curve 21pt [vs ?] #1F9,1,21pt,0x185388,16,0x18535C,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1FA,Cluster D :: Curve 21pt [vs ?] #1FA,1,21pt,0x1853E0,16,0x1853B4,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1FB,Cluster D :: Curve 21pt [vs ?] #1FB,1,21pt,0x185438,16,0x18540C,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1FC,Cluster D :: Curve 21pt [vs ?] #1FC,1,21pt,0x185490,16,0x185464,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1FD,Cluster D :: Curve 21pt [vs ?] #1FD,1,21pt,0x1854E8,16,0x1854BC,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1FE,Cluster D :: Curve 21pt [vs ?] #1FE,1,21pt,0x185540,16,0x185514,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x1FF,Cluster D :: Curve 21pt [vs ?] #1FF,1,21pt,0x185598,16,0x18556C,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x200,Cluster D :: Curve 21pt [vs ?] #200,1,21pt,0x1855F0,16,0x1855C4,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x201,Cluster D :: Curve 21pt [vs ?] #201,1,21pt,0x185648,16,0x18561C,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x202,Cluster D :: Curve 21pt [vs ?] #202,1,21pt,0x1856A0,16,0x185674,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x203,Cluster D :: Curve 21pt [vs ?] #203,1,21pt,0x1856F8,16,0x1856CC,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x204,Cluster D :: Curve 21pt [vs ?] #204,1,21pt,0x185750,16,0x185724,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x205,Cluster D :: Curve 21pt [vs ?] #205,1,21pt,0x1857A8,16,0x18577C,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x206,Cluster D :: Curve 21pt [vs ?] #206,1,21pt,0x185800,16,0x1857D4,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x207,Cluster D :: Curve 21pt [vs ?] #207,1,21pt,0x185858,16,0x18582C,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x208,Cluster D :: Curve 21pt [vs ?] #208,1,21pt,0x1858B0,16,0x185884,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x209,Cluster D :: Curve 21pt [vs ?] #209,1,21pt,0x185908,16,0x1858DC,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x20A,Cluster D :: Curve 21pt [vs ?] #20A,1,21pt,0x185960,16,0x185934,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x20B,Cluster D :: Curve 21pt [vs ?] #20B,1,21pt,0x1859B8,16,0x18598C,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x20C,Cluster D :: Curve 21pt [vs ?] #20C,1,21pt,0x185A10,16,0x1859E4,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x20D,Cluster D :: Curve 21pt [vs ?] #20D,1,21pt,0x185A68,16,0x185A3C,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x20E,Cluster D :: Curve 21pt [vs ?] #20E,1,21pt,0x185AC0,16,0x185A94,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x20F,Cluster D :: Curve 21pt [vs ?] #20F,1,21pt,0x185B18,16,0x185AEC,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x210,Cluster D :: Curve 21pt [vs ?] #210,1,21pt,0x185B70,16,0x185B44,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x211,Cluster D :: Curve 21pt [vs ?] #211,1,21pt,0x185BC8,16,0x185B9C,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x212,Cluster D :: Curve 21pt [vs ?] #212,1,21pt,0x185C20,16,0x185BF4,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x213,Cluster D :: Curve 21pt [vs ?] #213,1,21pt,0x185C78,16,0x185C4C,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x214,Cluster D :: Curve 21pt [vs ?] #214,1,21pt,0x185CD0,16,0x185CA4,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x215,Cluster D :: Curve 21pt [vs ?] #215,1,21pt,0x185D28,16,0x185CFC,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x216,Cluster D :: Curve 21pt [vs ?] #216,1,21pt,0x185D80,16,0x185D54,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x217,Cluster D :: Curve 21pt [vs ?] #217,1,21pt,0x185DD8,16,0x185DAC,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x218,Cluster D :: Curve 21pt [vs ?] #218,1,21pt,0x185E30,16,0x185E04,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x219,Cluster D :: Curve 21pt [vs ?] #219,1,21pt,0x185E88,16,0x185E5C,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x21E,Cluster D :: Curve 21pt [vs ?] #21E,1,21pt,0x185F90,16,0x185F64,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x21F,Cluster D :: Curve 21pt [vs ?] #21F,1,21pt,0x185FE8,16,0x185FBC,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x220,Cluster D :: Curve 21pt [vs ?] #220,1,21pt,0x186040,16,0x186014,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x221,Cluster D :: Curve 21pt [vs ?] #221,1,21pt,0x186098,16,0x18606C,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x222,Cluster D :: Curve 21pt [vs ?] #222,1,21pt,0x1860F0,16,0x1860C4,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x223,Cluster D :: Curve 21pt [vs ?] #223,1,21pt,0x186148,16,0x18611C,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x224,Cluster D :: Curve 21pt [vs ?] #224,1,21pt,0x1861A0,16,0x186174,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x225,Cluster D :: Curve 21pt [vs ?] #225,1,21pt,0x1861F8,16,0x1861CC,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x226,Cluster D :: Curve 21pt [vs ?] #226,1,21pt,0x186250,16,0x186224,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x227,Cluster D :: Curve 21pt [vs ?] #227,1,21pt,0x1862A8,16,0x18627C,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x228,Cluster D :: Curve 21pt [vs ?] #228,1,21pt,0x186300,16,0x1862D4,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x229,Cluster D :: Curve 21pt [vs ?] #229,1,21pt,0x186358,16,0x18632C,TEMP?,,,3277,7373,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x22A,Cluster D :: Curve 12pt [vs RPM] #22A,1,12pt,0x182B20,16,0x182B08,RPM,,,640,1024,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x22B,Cluster D :: Curve 9pt [vs ?] #22B,1,9pt,0x186398,16,0x186384,TEMP?,,,32768,33178,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x22C,Cluster D :: Curve 9pt [vs ?] #22C,1,9pt,0x1863C0,16,0x1863AC,TEMP?,,,32768,33587,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x22D,Cluster D :: Curve 9pt [vs ?] #22D,1,9pt,0x1863E8,16,0x1863D4,TEMP?,,,32768,33997,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x22E,Cluster D :: Curve 9pt [vs ?] #22E,1,9pt,0x186410,16,0x1863FC,TEMP?,,,32768,34406,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x22F,Cluster D :: Curve 9pt [vs ?] #22F,1,9pt,0x186438,16,0x186424,TEMP?,,,32768,34816,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x230,Cluster D :: Curve 9pt [vs ?] #230,1,9pt,0x186460,16,0x18644C,TEMP?,,,32768,35226,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x231,Cluster D :: Curve 9pt [vs ?] #231,1,9pt,0x186488,16,0x186474,TEMP?,,,32768,35226,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x232,Cluster D :: Curve 9pt [vs ?] #232,1,9pt,0x1864B0,16,0x18649C,TEMP?,,,32768,35226,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x233,Cluster D :: Curve 9pt [vs ?] #233,1,9pt,0x1864D8,16,0x1864C4,TEMP?,,,32768,35226,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x234,Cluster D :: Curve 9pt [vs ?] #234,1,9pt,0x186500,16,0x1864EC,TEMP?,,,32768,35226,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x235,Cluster D :: Curve 9pt [vs ?] #235,1,9pt,0x186528,16,0x186514,TEMP?,,,32768,33178,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x236,Cluster D :: Curve 15pt [vs RPM] #236,1,15pt,0x186D2C,8,0x18653C,RPM,,,102,128,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x237,Cluster D :: Curve 15pt [vs RPM] #237,1,15pt,0x186D3C,8,0x18655C,RPM,,,102,128,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x238,Cluster D :: Curve 15pt [vs RPM] #238,1,15pt,0x186D4C,8,0x18657C,RPM,,,102,128,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x239,Cluster D :: Curve 15pt [vs RPM] #239,1,15pt,0x186D5C,8,0x18659C,RPM,,,102,128,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x23A,Cluster D :: Curve 15pt [vs RPM] #23A,1,15pt,0x186D6C,8,0x1865BC,RPM,,,102,128,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x23B,Cluster D :: Curve 15pt [vs RPM] #23B,1,15pt,0x186D7C,8,0x1865DC,RPM,,,102,128,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x23C,ETV - Grip Curve 1,1,26pt,0x183AEC,16,0x183AB8,PCT5,,,0,40960,False,False,Throttle By Wire
+0x23D,Cluster D :: Curve 9pt [vs ?] #23D (flat),1,9pt,0x186610,16,0x1865FC,AX,,,32768,32768,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x23E,Cluster D :: Curve 9pt [vs ?] #23E (flat),1,9pt,0x186638,16,0x186624,AX,,,32768,32768,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x23F,Cluster D :: Curve 9pt [vs ?] #23F (flat),1,9pt,0x186660,16,0x18664C,TEMP?,,,100,100,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x240,ETV - Grip Curve 2,1,26pt,0x183BA4,16,0x183B70,PCT5,,,0,40960,False,False,Throttle By Wire
+0x241,Cluster D :: Curve 9pt [vs ?] #241 (flat),1,9pt,0x186688,16,0x186674,AX,,,32768,32768,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x242,Cluster D :: Curve 9pt [vs ?] #242 (flat),1,9pt,0x1866B0,16,0x18669C,AX,,,32768,32768,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x243,Cluster D :: Curve 9pt [vs ?] #243 (flat),1,9pt,0x1866D8,16,0x1866C4,TEMP?,,,100,100,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x244,ETV - Grip Curve 3,1,26pt,0x183C5C,16,0x183C28,PCT5,,,0,40960,False,False,Throttle By Wire
+0x245,Cluster D :: Curve 9pt [vs ?] #245 (flat),1,9pt,0x186700,16,0x1866EC,AX,,,32768,32768,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x246,Cluster D :: Curve 9pt [vs ?] #246 (flat),1,9pt,0x186728,16,0x186714,AX,,,32768,32768,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x247,Cluster D :: Curve 9pt [vs ?] #247 (flat),1,9pt,0x186750,16,0x18673C,TEMP?,,,100,100,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x248,ETV - Grip Curve 4,1,26pt,0x183D14,16,0x183CE0,PCT5,,,0,40960,False,False,Throttle By Wire
+0x249,Cluster D :: Curve 9pt [vs ?] #249 (flat),1,9pt,0x186778,16,0x186764,AX,,,32768,32768,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x24A,Cluster D :: Curve 9pt [vs ?] #24A (flat),1,9pt,0x1867A0,16,0x18678C,AX,,,32768,32768,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x24B,Cluster D :: Curve 9pt [vs ?] #24B (flat),1,9pt,0x1867C8,16,0x1867B4,TEMP?,,,100,100,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x24C,ETV - Grip Curve 5,1,26pt,0x183DCC,16,0x183D98,PCT5,,,0,40960,False,False,Throttle By Wire
+0x24D,Cluster D :: Curve 9pt [vs ?] #24D (flat),1,9pt,0x1867F0,16,0x1867DC,AX,,,32768,32768,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x24E,Cluster D :: Curve 9pt [vs ?] #24E (flat),1,9pt,0x186818,16,0x186804,AX,,,32768,32768,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x24F,Cluster D :: Curve 9pt [vs ?] #24F (flat),1,9pt,0x186840,16,0x18682C,TEMP?,,,100,100,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x250,ETV - Grip Curve 6,1,26pt,0x183E84,16,0x183E50,PCT5,,,0,40960,False,False,Throttle By Wire
+0x251,Cluster D :: Curve 9pt [vs ?] #251 (flat),1,9pt,0x186868,16,0x186854,AX,,,32768,32768,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x252,Cluster D :: Curve 9pt [vs ?] #252 (flat),1,9pt,0x186890,16,0x18687C,AX,,,32768,32768,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x253,Cluster D :: Curve 9pt [vs ?] #253 (flat),1,9pt,0x1868B8,16,0x1868A4,TEMP?,,,100,100,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x254,ETV - Grip Curve 7,1,26pt,0x183F3C,16,0x183F08,PCT5,,,0,40960,False,False,Throttle By Wire
+0x255,Cluster D :: Curve 9pt [vs ?] #255 (flat),1,9pt,0x1868E0,16,0x1868CC,AX,,,32768,32768,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x256,Cluster D :: Curve 9pt [vs ?] #256 (flat),1,9pt,0x186908,16,0x1868F4,AX,,,32768,32768,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x257,Cluster D :: Curve 9pt [vs ?] #257 (flat),1,9pt,0x186930,16,0x18691C,TEMP?,,,100,100,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x258,ETV - Grip Curve 8,1,26pt,0x183FF4,16,0x183FC0,PCT5,,,0,40960,False,False,Throttle By Wire
+0x259,Cluster D :: Curve 9pt [vs ?] #259 (flat),1,9pt,0x186958,16,0x186944,AX,,,32768,32768,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x25A,Cluster D :: Curve 9pt [vs ?] #25A (flat),1,9pt,0x186980,16,0x18696C,AX,,,32768,32768,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x25B,Cluster D :: Curve 9pt [vs ?] #25B (flat),1,9pt,0x1869A8,16,0x186994,TEMP?,,,100,100,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x25C,ETV - Grip Curve 9,1,26pt,0x1840AC,16,0x184078,PCT5,,,0,40960,False,False,Throttle By Wire
+0x25D,Cluster D :: Curve 9pt [vs ?] #25D (flat),1,9pt,0x1869D0,16,0x1869BC,AX,,,32768,32768,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x25E,Cluster D :: Curve 9pt [vs ?] #25E (flat),1,9pt,0x1869F8,16,0x1869E4,AX,,,32768,32768,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x25F,Cluster D :: Curve 9pt [vs ?] #25F (flat),1,9pt,0x186A20,16,0x186A0C,TEMP?,,,100,100,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x260,ETV - Grip Curve 10,1,26pt,0x184164,16,0x184130,PCT5,,,0,40960,False,False,Throttle By Wire
+0x261,Cluster D :: Curve 9pt [vs ?] #261 (flat),1,9pt,0x186A48,16,0x186A34,AX,,,32768,32768,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x262,Cluster D :: Curve 9pt [vs ?] #262 (flat),1,9pt,0x186A70,16,0x186A5C,AX,,,32768,32768,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x263,Cluster D :: Curve 9pt [vs ?] #263 (flat),1,9pt,0x186A98,16,0x186A84,TEMP?,,,100,100,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x264,ETV - Grip Curve 11,1,26pt,0x18421C,16,0x1841E8,PCT5,,,0,40960,False,False,Throttle By Wire
+0x265,Cluster D :: Curve 9pt [vs ?] #265 (flat),1,9pt,0x186AC0,16,0x186AAC,AX,,,32768,32768,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x266,Cluster D :: Curve 9pt [vs ?] #266 (flat),1,9pt,0x186AE8,16,0x186AD4,AX,,,32768,32768,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x267,Cluster D :: Curve 9pt [vs ?] #267 (flat),1,9pt,0x186B10,16,0x186AFC,TEMP?,,,100,100,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x268,Cluster D :: Curve 8pt [vs ?] #268,1,8pt,0x182B48,16,0x182B38,AX,,,0,44,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x269,Cluster D :: Curve 32pt [vs index] #269,1,32pt,0x182B98,16,0x182B58,IDX,,,640,40959,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x26A,Cluster D :: Curve 32pt [vs index] #26A,1,32pt,0x182C18,16,0x182BD8,IDX,,,256,40832,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x26B,Cluster D :: Curve 32pt [vs index] #26B,1,32pt,0x182C98,16,0x182C58,IDX,,,1408,40448,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x26C,Cluster D :: Curve 32pt [vs index] #26C,1,32pt,0x182D18,16,0x182CD8,IDX,,,1024,39552,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x26D,Cluster D :: Map 9x40 [? × RPM] #26D,2,9x40,0x18B158,8,0x186B24,AX,0x18B108,RPM,0,37,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x26F,Cluster D :: Map 9x40 [? × RPM] #26F,2,9x40,0x18B310,8,0x186B38,AX,0x18B2C0,RPM,0,26,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x271,Cluster D :: Map 9x40 [? × RPM] #271,2,9x40,0x18B4C8,8,0x186B4C,AX,0x18B478,RPM,0,20,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x275,Cluster D :: Map 10x6 [TP × RPM] #275,2,10x6,0x1843FC,8,0x1843DC,TP,0x1843F0,RPM,11,49,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x277,Cluster D :: Map 10x6 [TP × RPM] #277,2,10x6,0x184474,8,0x184454,TP,0x184468,RPM,24,64,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x279,Cluster D :: Map 10x6 [TP × RPM] #279,2,10x6,0x1844EC,8,0x1844CC,TP,0x1844E0,RPM,36,79,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x27B,Cluster D :: Map 10x6 [TP × RPM] #27B,2,10x6,0x184564,8,0x184544,TP,0x184558,RPM,49,93,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x27D,Cluster D :: Map 10x6 [TP × RPM] #27D,2,10x6,0x1845DC,8,0x1845BC,TP,0x1845D0,RPM,62,109,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x27F,Cluster D :: Map 10x6 [TP × RPM] #27F,2,10x6,0x184654,8,0x184634,TP,0x184648,RPM,75,124,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x281,Cluster D :: Map 10x6 [TP × RPM] #281,2,10x6,0x1846CC,8,0x1846AC,TP,0x1846C0,RPM,88,140,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x283,Cluster D :: Map 10x6 [TP × RPM] #283,2,10x6,0x184744,8,0x184724,TP,0x184738,RPM,100,156,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x285,Cluster D :: Map 10x6 [TP × RPM] #285,2,10x6,0x1847BC,8,0x18479C,TP,0x1847B0,RPM,113,174,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x287,Cluster D :: Curve 27pt [vs ?] #287 (flat),1,27pt,0x186D8C,8,0x186B60,AX,,,64,64,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x288,Cluster D :: Curve 27pt [vs ?] #288 (flat),1,27pt,0x186DA8,8,0x186B98,AX,,,64,64,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x28A,Cluster D :: Curve 8pt [vs ?] #28A (flat),1,8pt,0x18B7E4,16,0x18B7D4,AX,,,0,0,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x28B,Cluster D :: Curve 8pt [vs ?] #28B (flat),1,8pt,0x18B7CC,8,0x18B7F4,AX,,,0,0,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x28D,Cluster D :: Curve 12pt [vs RPM] #28D (flat),1,12pt,0x18B81C,16,0x18B804,RPM,,,524,524,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x28E,Cluster D :: Curve 9pt [vs ?] #28E,1,9pt,0x18BEDC,16,0x18BFB8,AX,,,0,1096,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x28F,Cluster D :: Curve 9pt [vs ?] #28F,1,9pt,0x18BEF0,16,0x18BFC4,AX,,,0,582,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x290,Cluster D :: Curve 22pt [vs ?] #290,1,22pt,0x18BF04,8,0x18B834,AX,,,0,128,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x293,Cluster D :: Curve 22pt [vs ?] #293 (flat),1,22pt,0x18BF1C,8,0x18B834,AX,,,5,5,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x295,Cluster D :: Curve 5pt [vs ?] #295,1,5pt,0x18BF40,16,0x18BF34,AX,,,1,19,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x296,Cluster D :: Curve 5pt [vs ?] #296,1,5pt,0x18BF58,16,0x18BF4C,AX,,,1,19,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x298,Cluster D :: Curve 22pt [vs ?] #298 (flat),1,22pt,0x18BF64,8,0x18B834,AX,,,5,5,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x29A,Cluster D :: Curve 22pt [vs RPM] #29A (flat),1,22pt,0x18BB04,16,0x18BAD8,RPM,,,0,0,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x29B,Cluster D :: Curve 22pt [vs RPM] #29B (flat),1,22pt,0x18BB70,16,0x18BB44,RPM,,,0,0,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x29C,Cluster D :: Curve 22pt [vs RPM] #29C (flat),1,22pt,0x18BBDC,16,0x18BBB0,RPM,,,0,0,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2A4,Cluster D :: Map 22x9 [RPM × ?] #2A4,2,22x9,0x18BFD0,16,0x18BDDC,RPM,0x18BF7C,AX,0,1248,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2A6,Cluster D :: Map 22x9 [RPM × ?] #2A6,2,22x9,0x18C15C,16,0x18BE24,RPM,0x18BF90,AX,0,1248,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2A8,Cluster D :: Map 22x9 [RPM × ?] #2A8,2,22x9,0x18C2E8,16,0x18BE6C,RPM,0x18BFA4,AX,0,1248,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2AB,Cluster D :: Curve 16pt [vs ?] #2AB,1,16pt,0x18C544,8,0x18C534,AX,,,123,137,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2AC,Hardware Nr.,1,16pt,0x18C564,8,0x18C554,IDX,,,0,76,False,True,xdf moto bin files
+0x2AD,Cluster D :: Curve 11pt [vs index] #2AD,1,11pt,0x18C67C,8,0x18C670,IDX,,,45,77,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2AE,Cluster D :: Curve 11pt [vs index] #2AE,1,11pt,0x18C694,8,0x18C688,IDX,,,42,76,False,True,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2AF,Software Upgrade Nr.,1,16pt,0x18C584,8,0x18C574,IDX,,,0,76,False,True,xdf moto bin files
+0x2B0,Cluster D :: Curve 16pt [vs index] #2B0,1,16pt,0x18C5A4,8,0x18C594,IDX,,,42,76,False,True,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2B2,Cluster D :: Curve 15pt [vs RPM] #2B2,1,15pt,0x18CC10,16,0x18CBF0,RPM,,,30848,31488,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2B3,Cluster D :: Curve 15pt [vs RPM] #2B3 (flat),1,15pt,0x18CC50,16,0x18CC30,RPM,,,32128,32128,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2B4,Cluster D :: Curve 17pt [vs ?] #2B4 (flat),1,17pt,0x18CFB4,8,0x18CC70,AX,,,128,128,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2B5,Cluster D :: Curve 22pt [vs ?] #2B5 (flat),1,22pt,0x18CC94,8,0x18C788,AX,,,128,128,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2B6,Cluster D :: Curve 8pt [vs ?] #2B6 (flat),1,8pt,0x18C6A0,8,0x18C6B8,AX,,,128,128,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2B7,Cluster D :: Curve 10pt [vs ?] #2B7 (flat),1,10pt,0x18CCAC,8,0x18C82C,AX,,,128,128,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2B9,Cluster D :: Curve 16pt [vs TP] #2B9,1,16pt,0x18C6E8,16,0x18C6C8,TP,,,0,16351,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2BA,Cluster D :: Curve 16pt [vs TP] #2BA,1,16pt,0x18C728,16,0x18C708,TP,,,0,16351,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2BB,Cluster D :: Curve 16pt [vs TP] #2BB,1,16pt,0x18C768,16,0x18C748,TP,,,0,16351,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2BC,Cluster D :: Curve 37pt [vs ?] #2BC,1,37pt,0x18D014,16,0x18CFC8,AX,,,0,18350,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2BD,Cluster D :: Curve 37pt [vs ?] #2BD,1,37pt,0x18D0AC,16,0x18D060,AX,,,0,18350,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2BE,Cluster D :: Curve 37pt [vs ?] #2BE,1,37pt,0x18D144,16,0x18D0F8,AX,,,0,18350,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2BF,Cluster D :: Curve 31pt [vs ?] #2BF,1,31pt,0x18CD08,16,0x18CCC8,AX,,,0,32768,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2C0,Cluster D :: Curve 7pt [vs index] #2C0,1,7pt,0x18CD48,16,0x18C6A8,IDX,,,492,3277,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2C1,Cluster D :: Curve 7pt [vs index] #2C1 (flat),1,7pt,0x18CD58,16,0x18C6B0,IDX,,,164,164,True,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2C2,Cluster D :: Curve 5pt [vs ?] #2C2,1,5pt,0x18CD74,16,0x18CD68,AX,,,28672,38229,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2C3,Cluster D :: Map 10x21 [? × RPM] #2C3,2,10x21,0x18D190,8,0x18C94C,AX,0x18CD80,RPM,123,255,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2C5,Cluster D :: Map 10x14 [? × RPM] #2C5,2,10x14,0x18D264,8,0x18C97C,AX,0x18C990,RPM,0,1,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2C7,Cluster D :: Map 10x14 [? × RPM] #2C7,2,10x14,0x18D2F0,16,0x18C9C8,AX,0x18C9DC,RPM,0,256,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2C9,Cluster D :: Map 6x25 [? × RPM] #2C9,2,6x25,0x18D408,8,0x18CA14,AX,0x18CDAC,RPM,64,255,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2CB,Cluster D :: Map 6x25 [? × RPM] #2CB,2,6x25,0x18D4A0,8,0x18CA3C,AX,0x18CDE0,RPM,64,255,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2CD,Cluster D :: Map 6x25 [? × RPM] #2CD,2,6x25,0x18D538,8,0x18CA64,AX,0x18CE14,RPM,70,255,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2CF,Cluster D :: Map 6x25 [? × RPM] #2CF,2,6x25,0x18D5D0,8,0x18CA8C,AX,0x18CE48,RPM,77,225,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2D1,Cluster D :: Map 6x25 [? × RPM] #2D1,2,6x25,0x18D668,8,0x18CAB4,AX,0x18CE7C,RPM,128,255,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2D3,Cluster D :: Map 6x25 [? × RPM] #2D3,2,6x25,0x18D700,8,0x18CADC,AX,0x18CEB0,RPM,64,255,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2D5,Cluster D :: Map 6x25 [? × RPM] #2D5,2,6x25,0x18D798,8,0x18CB04,AX,0x18CEE4,RPM,64,255,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2D7,Cluster D :: Map 6x25 [? × RPM] #2D7,2,6x25,0x18D830,8,0x18CB2C,AX,0x18CF18,RPM,70,255,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2D9,Cluster D :: Map 6x25 [? × RPM] #2D9,2,6x25,0x18D8C8,8,0x18CB54,AX,0x18CF4C,RPM,77,255,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2DB,Cluster D :: Map 6x25 [? × RPM] #2DB,2,6x25,0x18D960,8,0x18CB7C,AX,0x18CF80,RPM,77,255,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2DE,Cluster D :: Curve 29pt [vs ?] #2DE,1,29pt,0x18E194,8,0x18DEAC,AX,,,9,169,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2DF,Cluster D :: Curve 30pt [vs ?] #2DF,1,30pt,0x18DEE8,8,0x18DC4C,AX,,,0,255,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2E0,Cluster D :: Curve 29pt [vs ?] #2E0,1,29pt,0x18E1B4,8,0x18DF08,AX,,,10,255,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2E1,Cluster D :: Curve 29pt [vs RPM] #2E1,1,29pt,0x18DF80,16,0x18DF44,RPM,,,15808,58624,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2E2,Cluster D :: Curve 29pt [vs RPM] #2E2,1,29pt,0x18DFF8,16,0x18DFBC,RPM,,,14654,58624,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2E3,Cluster D :: Curve 30pt [vs ?] #2E3,1,30pt,0x18E034,8,0x18DCD8,AX,,,0,255,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2E4,Cluster D :: Curve 7pt [vs ?] #2E4,1,7pt,0x18E064,16,0x18E054,AX,,,1311,3015,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2E5,Cluster D :: Curve 7pt [vs ?] #2E5,1,7pt,0x18E084,16,0x18E074,AX,,,1311,3015,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2E6,Cluster D :: Curve 9pt [vs ?] #2E6,1,9pt,0x18E0A8,16,0x18E094,TEMP?,,,0,606,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2E7,Cluster D :: Curve 9pt [vs ?] #2E7,1,9pt,0x18E0D0,16,0x18E0BC,TEMP?,,,0,606,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2E8,Cluster D :: Curve 9pt [vs ?] #2E8,1,9pt,0x18E0F8,16,0x18E0E4,TEMP?,,,0,1132,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2E9,Cluster D :: Curve 7pt [vs ?] #2E9,1,7pt,0x18E11C,16,0x18E10C,AX,,,1068,2678,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2EA,Cluster D :: Curve 14pt [vs RPM] #2EA,1,14pt,0x18DDBC,16,0x18DDA0,RPM,,,1026,1047,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2EB,Cluster D :: Curve 37pt [vs ?] #2EB,1,37pt,0x18E220,16,0x18E1D4,AX,,,16384,49152,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2EC,Cluster D :: Curve 37pt [vs ?] #2EC,1,37pt,0x18E2B8,16,0x18E26C,AX,,,32768,65535,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2ED,Cluster D :: Curve 37pt [vs ?] #2ED,1,37pt,0x18E350,16,0x18E304,AX,,,22769,42768,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2EE,Cluster D :: Curve 37pt [vs ?] #2EE,1,37pt,0x18E3E8,16,0x18E39C,TEMP?,,,22769,42768,False,False,Unidentified - Cluster D (IDs 0x1D9-0x2EE)
+0x2EF,ETV - Helper 1,2,37x36,0x18E4C8,16,0x18E434,AX,0x18E480,TP,0,65535,False,False,Throttle By Wire
+0x2F1,ETV - Helper 2,1,17pt,0x18E150,16,0x18E12C,AX,,,32768,32768,True,False,Throttle By Wire
+0x2F3,ETV - Helper 3,1,14pt,0x18FD9C,8,0x18FD8C,AX,,,0,128,False,False,Throttle By Wire
+0x2F4,ETV - Helper 4,1,39pt,0x190AAC,16,0x190A5C,RPM,,,45351,45351,True,False,Throttle By Wire
+0x2F5,ETV - Helper 5,1,5pt,0x18FDB8,16,0x18FDAC,AX,,,100,179,False,False,Throttle By Wire
+0x2F6,ETV - Helper 6,1,5pt,0x18FDD0,16,0x18FDC4,AX,,,32768,32768,True,False,Throttle By Wire
+0x2F7,ETV - Helper 7,1,39pt,0x190A0C,8,0x190AFC,RPM,,,0,0,True,False,Throttle By Wire
+0x2F8,ETV - Helper 8,1,39pt,0x190A34,8,0x190B4C,RPM,,,0,0,True,False,Throttle By Wire
+0x2F9,ETV - Mode A | Neutral/Clutch-In,2,23x39,0x190BEC,16,0x18FDDC,TP,0x190B9C,RPM,0,44564,False,False,Throttle By Wire
+0x2FB,ETV - Mode A | Gear 1,2,23x39,0x191340,16,0x18FE0C,TP,0x1912F0,RPM,0,44564,False,False,Throttle By Wire
+0x2FD,ETV - Mode A | Gear 2,2,23x39,0x191A94,16,0x18FE3C,TP,0x191A44,RPM,0,44564,False,False,Throttle By Wire
+0x2FF,ETV - Mode A | Gear 3,2,23x39,0x1921E8,16,0x18FE6C,TP,0x192198,RPM,0,44564,False,False,Throttle By Wire
+0x301,ETV - Mode A | Gear 4,2,23x39,0x19293C,16,0x18FE9C,TP,0x1928EC,RPM,0,44564,False,False,Throttle By Wire
+0x303,ETV - Mode A | Gear 5,2,23x39,0x193090,16,0x18FECC,TP,0x193040,RPM,0,44564,False,False,Throttle By Wire
+0x305,ETV - Mode A | Gear 6,2,23x39,0x1937E4,16,0x18FEFC,TP,0x193794,RPM,0,44564,False,False,Throttle By Wire
+0x307,ETV - Mode B | Neutral/Clutch-In,2,23x39,0x193F38,16,0x18FF2C,TP,0x193EE8,RPM,0,44564,False,False,Throttle By Wire
+0x309,ETV - Mode B | Gear 1,2,23x39,0x19468C,16,0x18FF5C,TP,0x19463C,RPM,0,44564,False,False,Throttle By Wire
+0x30B,ETV - Mode B | Gear 2,2,23x39,0x194DE0,16,0x18FF8C,TP,0x194D90,RPM,0,44564,False,False,Throttle By Wire
+0x30D,ETV - Mode B | Gear 3,2,23x39,0x195534,16,0x18FFBC,TP,0x1954E4,RPM,0,44564,False,False,Throttle By Wire
+0x30F,ETV - Mode B | Gear 4,2,23x39,0x195C88,16,0x18FFEC,TP,0x195C38,RPM,0,44564,False,False,Throttle By Wire
+0x311,ETV - Mode B | Gear 5,2,23x39,0x1963DC,16,0x19001C,TP,0x19638C,RPM,0,44564,False,False,Throttle By Wire
+0x313,ETV - Mode B | Gear 6,2,23x39,0x196B30,16,0x19004C,TP,0x196AE0,RPM,0,44564,False,False,Throttle By Wire
+0x315,ETV - Mode C | Neutral/Clutch-In,2,23x39,0x197284,16,0x19007C,TP,0x197234,RPM,0,44564,False,False,Throttle By Wire
+0x317,ETV - Mode C | Gear 1,2,23x39,0x1979D8,16,0x1900AC,TP,0x197988,RPM,0,23263,False,False,Throttle By Wire
+0x319,ETV - Mode C | Gear 2,2,23x39,0x19812C,16,0x1900DC,TP,0x1980DC,RPM,0,27263,False,False,Throttle By Wire
+0x31B,ETV - Mode C | Gear 3,2,23x39,0x198880,16,0x19010C,TP,0x198830,RPM,0,27263,False,False,Throttle By Wire
+0x31D,ETV - Mode C | Gear 4,2,23x39,0x198FD4,16,0x19013C,TP,0x198F84,RPM,0,27263,False,False,Throttle By Wire
+0x31F,ETV - Mode C | Gear 5,2,23x39,0x199728,16,0x19016C,TP,0x1996D8,RPM,0,27263,False,False,Throttle By Wire
+0x321,ETV - Mode C | Gear 6,2,23x39,0x199E7C,16,0x19019C,TP,0x199E2C,RPM,0,27263,False,False,Throttle By Wire
+0x323,ETV - 1,2,23x39,0x19A5D0,16,0x1901CC,TP,0x19A580,RPM,0,43463,False,False,Throttle By Wire
+0x325,ETV - 2,2,23x39,0x19AD24,16,0x1901FC,TP,0x19ACD4,RPM,0,43463,False,False,Throttle By Wire
+0x327,ETV - 3,2,23x39,0x19B478,16,0x19022C,TP,0x19B428,RPM,0,43463,False,False,Throttle By Wire
+0x329,ETV - 4,2,23x39,0x19BBCC,16,0x19025C,TP,0x19BB7C,RPM,0,43463,False,False,Throttle By Wire
+0x32B,ETV - 5,2,23x39,0x19C320,16,0x19028C,TP,0x19C2D0,RPM,0,43463,False,False,Throttle By Wire
+0x32D,ETV - 6,2,23x39,0x19CA74,16,0x1902BC,TP,0x19CA24,RPM,0,43463,False,False,Throttle By Wire
+0x32F,ETV - 7,2,23x39,0x19D1C8,16,0x1902EC,TP,0x19D178,RPM,0,43463,False,False,Throttle By Wire
+0x331,ETV - 8,2,23x39,0x19D91C,16,0x19031C,TP,0x19D8CC,RPM,0,43463,False,False,Throttle By Wire
+0x333,ETV - 9,2,23x39,0x19E070,16,0x19034C,TP,0x19E020,RPM,0,44738,False,False,Throttle By Wire
+0x335,ETV - 10,2,23x39,0x19E7C4,16,0x19037C,TP,0x19E774,RPM,0,44738,False,False,Throttle By Wire
+0x337,ETV - 11,2,23x39,0x19EF18,16,0x1903AC,TP,0x19EEC8,RPM,0,44738,False,False,Throttle By Wire
+0x339,ETV - 12,2,23x39,0x19F66C,16,0x1903DC,TP,0x19F61C,RPM,0,44738,False,False,Throttle By Wire
+0x33B,ETV - 13,2,23x39,0x19FDC0,16,0x19040C,TP,0x19FD70,RPM,0,44738,False,False,Throttle By Wire
+0x33D,ETV - 14,2,23x39,0x1A0514,16,0x19043C,TP,0x1A04C4,RPM,0,44738,False,False,Throttle By Wire
+0x33F,ETV - 15,2,23x39,0x1A0C68,16,0x19046C,TP,0x1A0C18,RPM,0,43463,False,False,Throttle By Wire
+0x341,ETV - 16,2,23x39,0x1A13BC,16,0x19049C,TP,0x1A136C,RPM,0,44738,False,False,Throttle By Wire
+0x343,ETV - 17,2,23x39,0x1A1B10,16,0x1904CC,TP,0x1A1AC0,RPM,0,44738,False,False,Throttle By Wire
+0x345,ETV - 18,2,23x39,0x1A2264,16,0x1904FC,TP,0x1A2214,RPM,0,44738,False,False,Throttle By Wire
+0x347,ETV - 19,2,23x39,0x1A29B8,16,0x19052C,TP,0x1A2968,RPM,0,44738,False,False,Throttle By Wire
+0x349,ETV - 20,2,23x39,0x1A310C,16,0x19055C,TP,0x1A30BC,RPM,0,44738,False,False,Throttle By Wire
+0x34B,ETV - 21,2,23x39,0x1A3860,16,0x19058C,TP,0x1A3810,RPM,0,44738,False,False,Throttle By Wire
+0x34D,ETV - 22,2,23x39,0x1A3FB4,16,0x1905BC,TP,0x1A3F64,RPM,0,44564,False,False,Throttle By Wire
+0x34F,ETV - 23,2,23x39,0x1A4708,16,0x1905EC,TP,0x1A46B8,RPM,0,43463,False,True,Throttle By Wire
+0x351,ETV - 24,2,23x39,0x1A4E5C,16,0x19061C,TP,0x1A4E0C,RPM,0,43463,False,False,Throttle By Wire
+0x353,ETV - 25,2,23x39,0x1A55B0,16,0x19064C,TP,0x1A5560,RPM,0,43463,False,False,Throttle By Wire
+0x355,ETV 2 - 1,2,23x39,0x1A5D04,16,0x19067C,TP,0x1A5CB4,RPM,0,16102,False,False,Throttle By Wire
+0x357,ETV 2 - 2,2,23x39,0x1A6458,16,0x1906AC,TP,0x1A6408,RPM,0,16102,False,False,Throttle By Wire
+0x359,ETV 2 - 3,2,23x39,0x1A6BAC,16,0x1906DC,TP,0x1A6B5C,RPM,0,16102,False,False,Throttle By Wire
+0x35B,ETV 2 - 4,2,23x39,0x1A7300,16,0x19070C,TP,0x1A72B0,RPM,0,16102,False,False,Throttle By Wire
+0x35D,ETV 2 - 5,2,23x39,0x1A7A54,16,0x19073C,TP,0x1A7A04,RPM,0,16102,False,False,Throttle By Wire
+0x35F,ETV 2 - 6,2,23x39,0x1A81A8,16,0x19076C,TP,0x1A8158,RPM,0,16102,False,False,Throttle By Wire
+0x361,ETV 2 Aux - 1,2,14x10,0x1A88AC,16,0x18F8F4,RPM,0x18F910,AX,1929,14508,False,False,Throttle By Wire
+0x363,ETV 2 Aux - 2,2,14x10,0x1A89C4,16,0x18F940,RPM,0x18F95C,AX,0,0,True,False,Throttle By Wire
+0x365,ETV 2 Aux - 3,2,14x10,0x1A8ADC,16,0x18F98C,RPM,0x18F9A8,AX,316,18745,False,False,Throttle By Wire
+0x367,ETV 2 Aux - 4,2,14x10,0x1A8BF4,16,0x18F9D8,RPM,0x18F9F4,AX,316,18745,False,False,Throttle By Wire
+0x369,ETV 2 Aux - 5,2,14x10,0x1A8D0C,16,0x18FA24,RPM,0x18FA40,AX,316,18745,False,False,Throttle By Wire
+0x36B,ETV 2 Aux - 6,2,14x10,0x1A8E24,16,0x18FA70,RPM,0x18FA8C,AX,316,17697,False,False,Throttle By Wire
+0x36D,ETV 2 Aux - 7,2,14x10,0x1A8F3C,16,0x18FABC,RPM,0x18FAD8,AX,316,17697,False,False,Throttle By Wire
+0x36F,ETV 2 Aux - 8,2,14x10,0x1A9054,16,0x18FB08,RPM,0x18FB24,AX,316,17697,False,False,Throttle By Wire
+0x371,ETV 2 Aux - 9,2,14x10,0x1A916C,16,0x18FB54,RPM,0x18FB70,AX,786,6501,False,False,Throttle By Wire
+0x373,ETV 2 - 7,2,23x39,0x1A92D4,16,0x19079C,TP,0x1A9284,RPM,0,35790,False,False,Throttle By Wire
+0x375,ETV 2 - 8,2,23x39,0x1A9A28,16,0x1907CC,TP,0x1A99D8,RPM,0,35790,False,False,Throttle By Wire
+0x377,ETV 2 - 9,2,23x39,0x1AA17C,16,0x1907FC,TP,0x1AA12C,RPM,0,35790,False,False,Throttle By Wire
+0x379,ETV 2 - 10,2,23x39,0x1AA8D0,16,0x19082C,TP,0x1AA880,RPM,0,35790,False,False,Throttle By Wire
+0x37B,ETV 2 - 11,2,23x39,0x1AB024,16,0x19085C,TP,0x1AAFD4,RPM,0,35790,False,False,Throttle By Wire
+0x37D,ETV 2 - 12,2,23x39,0x1AB778,16,0x19088C,TP,0x1AB728,RPM,0,35790,False,False,Throttle By Wire
+0x37F,ETV 3 - 1,2,23x20,0x1ABE7C,16,0x1908BC,TP,0x18F1A0,RPM,0,891,False,False,Throttle By Wire
+0x381,ETV 3 - 2,2,23x20,0x1AC214,16,0x1908EC,TP,0x18F1C8,RPM,0,524,False,False,Throttle By Wire
+0x383,ETV 3 - 3,2,23x20,0x1AC5AC,16,0x19091C,TP,0x18F1F0,RPM,0,524,False,False,Throttle By Wire
+0x385,ETV 3 - 4,2,23x20,0x1AC944,16,0x19094C,TP,0x18F218,RPM,0,0,True,False,Throttle By Wire
+0x387,ETV 3 - 5,2,23x20,0x1ACCDC,16,0x19097C,TP,0x18F240,RPM,0,0,True,False,Throttle By Wire
+0x389,ETV 3 - 6,2,23x20,0x1AD074,16,0x1909AC,TP,0x18F268,RPM,0,0,True,False,Throttle By Wire
+0x38B,ETV 3 - 7,2,23x20,0x1AD40C,16,0x1909DC,TP,0x18F290,RPM,0,0,True,False,Throttle By Wire
+0x38E,Cluster E :: Curve 21pt [vs RPM] #38E,1,21pt,0x1AE8E0,16,0x1AE8B4,RPM,,,157,49793,False,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x38F,Cluster E :: Curve 16pt [vs ?] #38F (flat),1,16pt,0x1AD92C,16,0x1AD91C,AX,,,1000,1000,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x390,Cluster E :: Curve 11pt [vs ?] #390 (flat),1,11pt,0x1AE924,16,0x1AE90C,AX,,,1000,1000,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x391,Cluster E :: Map 5x21 [? × RPM] #391,2,5x21,0x1AFD68,16,0x1AE93C,TEMP?,0x1AE948,RPM,19581,47697,False,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x393,Cluster E :: Map 10x21 [? × RPM] #393,2,10x21,0x1AFE3C,16,0x1AD9E0,AX,0x1AE974,RPM,50,400,False,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x395,Cluster E :: Curve 21pt [vs RPM] #395 (flat),1,21pt,0x1AE9CC,16,0x1AE9A0,RPM,,,62902,62902,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x396,Cluster E :: Map 8x12 [? × RPM] #396 (flat),2,8x12,0x1AFFE0,16,0x1AD94C,AX,0x1AD95C,RPM,400,400,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x398,Cluster E :: Curve 21pt [vs RPM] #398 (flat),1,21pt,0x1AEA24,16,0x1AE9F8,RPM,,,2,2,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x399,Cluster E :: Curve 21pt [vs RPM] #399 (flat),1,21pt,0x1AEA7C,16,0x1AEA50,RPM,,,2,2,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x39A,Cluster E :: Map 5x21 [? × RPM] #39A (flat),2,5x21,0x1B00A0,16,0x1AEAA8,TEMP?,0x1AEAB4,RPM,3000,3000,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x39C,Cluster E :: Map 5x21 [? × RPM] #39C (flat),2,5x21,0x1B0174,16,0x1AEAE0,TEMP?,0x1AEAEC,RPM,3100,3100,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x39E,Cluster E :: Map 5x21 [? × RPM] #39E (flat),2,5x21,0x1B0248,16,0x1AEB18,TEMP?,0x1AEB24,RPM,3000,3000,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3A0,Cluster E :: Map 5x21 [? × RPM] #3A0 (flat),2,5x21,0x1B031C,16,0x1AEB50,TEMP?,0x1AEB5C,RPM,3000,3000,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3A2,Cluster E :: Map 5x21 [? × RPM] #3A2 (flat),2,5x21,0x1B03F0,16,0x1AEB88,TEMP?,0x1AEB94,RPM,3100,3100,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3A4,Cluster E :: Map 5x21 [? × RPM] #3A4 (flat),2,5x21,0x1B04C4,16,0x1AEBC0,TEMP?,0x1AEBCC,RPM,3000,3000,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3A6,Cluster E :: Map 5x21 [? × RPM] #3A6 (flat),2,5x21,0x1B0598,16,0x1AEBF8,TEMP?,0x1AEC04,RPM,3000,3000,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3A8,Cluster E :: Map 5x21 [? × RPM] #3A8 (flat),2,5x21,0x1B066C,16,0x1AEC30,TEMP?,0x1AEC3C,RPM,3100,3100,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3AA,Cluster E :: Map 5x21 [? × RPM] #3AA (flat),2,5x21,0x1B0740,16,0x1AEC68,TEMP?,0x1AEC74,RPM,3000,3000,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3AC,Cluster E :: Map 5x21 [? × RPM] #3AC,2,5x21,0x1B0814,16,0x1AECA0,TEMP?,0x1AECAC,RPM,177,1000,False,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3AE,Cluster E :: Map 5x21 [? × RPM] #3AE,2,5x21,0x1B08E8,16,0x1AECD8,TEMP?,0x1AECE4,RPM,962,2131,False,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3B0,Cluster E :: Map 5x21 [? × RPM] #3B0,2,5x21,0x1B09BC,16,0x1AED10,TEMP?,0x1AED1C,RPM,800,1853,False,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3B2,Cluster E :: Map 5x21 [? × RPM] #3B2 (flat),2,5x21,0x1B0A90,16,0x1AED48,TEMP?,0x1AED54,RPM,3000,3000,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3B4,Cluster E :: Map 5x21 [? × RPM] #3B4 (flat),2,5x21,0x1B0B64,16,0x1AED80,TEMP?,0x1AED8C,RPM,3100,3100,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3B6,Cluster E :: Map 5x21 [? × RPM] #3B6 (flat),2,5x21,0x1B0C38,16,0x1AEDB8,TEMP?,0x1AEDC4,RPM,3000,3000,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3B8,Cluster E :: Map 5x21 [? × RPM] #3B8 (flat),2,5x21,0x1B0D0C,16,0x1AEDF0,TEMP?,0x1AEDFC,RPM,3000,3000,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3BA,Cluster E :: Map 5x21 [? × RPM] #3BA (flat),2,5x21,0x1B0DE0,16,0x1AEE28,TEMP?,0x1AEE34,RPM,3100,3100,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3BC,Cluster E :: Map 5x21 [? × RPM] #3BC (flat),2,5x21,0x1B0EB4,16,0x1AEE60,TEMP?,0x1AEE6C,RPM,3000,3000,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3BE,Cluster E :: Map 5x21 [? × RPM] #3BE (flat),2,5x21,0x1B0F88,16,0x1AEE98,TEMP?,0x1AEEA4,RPM,3000,3000,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3C0,Cluster E :: Map 5x21 [? × RPM] #3C0 (flat),2,5x21,0x1B105C,16,0x1AEED0,TEMP?,0x1AEEDC,RPM,3100,3100,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3C2,Cluster E :: Map 5x21 [? × RPM] #3C2 (flat),2,5x21,0x1B1130,16,0x1AEF08,TEMP?,0x1AEF14,RPM,3000,3000,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3C4,Cluster E :: Map 5x21 [? × RPM] #3C4,2,5x21,0x1B1204,16,0x1AEF40,TEMP?,0x1AEF4C,RPM,300,1000,False,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3C6,Cluster E :: Map 5x21 [? × RPM] #3C6,2,5x21,0x1B12D8,16,0x1AEF78,TEMP?,0x1AEF84,RPM,1100,1849,False,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3C8,Cluster E :: Map 5x21 [? × RPM] #3C8,2,5x21,0x1B13AC,16,0x1AEFB0,TEMP?,0x1AEFBC,RPM,800,1834,False,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3CA,Cluster E :: Map 5x21 [? × RPM] #3CA (flat),2,5x21,0x1B1480,16,0x1AEFE8,TEMP?,0x1AEFF4,RPM,3000,3000,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3CC,Cluster E :: Map 5x21 [? × RPM] #3CC (flat),2,5x21,0x1B1554,16,0x1AF020,TEMP?,0x1AF02C,RPM,3100,3100,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3CE,Cluster E :: Map 5x21 [? × RPM] #3CE (flat),2,5x21,0x1B1628,16,0x1AF058,TEMP?,0x1AF064,RPM,3000,3000,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3D0,Cluster E :: Map 5x21 [? × RPM] #3D0,2,5x21,0x1B16FC,16,0x1AF090,TEMP?,0x1AF09C,RPM,536,1300,False,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3D2,Cluster E :: Map 5x21 [? × RPM] #3D2,2,5x21,0x1B17D0,16,0x1AF0C8,TEMP?,0x1AF0D4,RPM,1100,2256,False,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3D4,Cluster E :: Map 5x21 [? × RPM] #3D4,2,5x21,0x1B18A4,16,0x1AF100,TEMP?,0x1AF10C,RPM,523,1518,False,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3D6,Cluster E :: Map 5x21 [? × RPM] #3D6 (flat),2,5x21,0x1B1978,16,0x1AF138,TEMP?,0x1AF144,RPM,3000,3000,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3D8,Cluster E :: Map 5x21 [? × RPM] #3D8 (flat),2,5x21,0x1B1A4C,16,0x1AF170,TEMP?,0x1AF17C,RPM,3100,3100,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3DA,Cluster E :: Map 5x21 [? × RPM] #3DA (flat),2,5x21,0x1B1B20,16,0x1AF1A8,TEMP?,0x1AF1B4,RPM,3000,3000,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3DC,Cluster E :: Map 5x21 [? × RPM] #3DC,2,5x21,0x1B1BF4,16,0x1AF1E0,TEMP?,0x1AF1EC,RPM,165,1000,False,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3DE,Cluster E :: Map 5x21 [? × RPM] #3DE,2,5x21,0x1B1CC8,16,0x1AF218,TEMP?,0x1AF224,RPM,1100,1957,False,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3E0,Cluster E :: Map 5x21 [? × RPM] #3E0,2,5x21,0x1B1D9C,16,0x1AF250,TEMP?,0x1AF25C,RPM,900,1957,False,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3E2,Cluster E :: Map 5x21 [? × RPM] #3E2 (flat),2,5x21,0x1B1E70,16,0x1AF288,TEMP?,0x1AF294,RPM,3000,3000,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3E4,Cluster E :: Map 5x21 [? × RPM] #3E4 (flat),2,5x21,0x1B1F44,16,0x1AF2C0,TEMP?,0x1AF2CC,RPM,3100,3100,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3E6,Cluster E :: Map 5x21 [? × RPM] #3E6 (flat),2,5x21,0x1B2018,16,0x1AF2F8,TEMP?,0x1AF304,RPM,3000,3000,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3E8,Cluster E :: Map 5x21 [? × RPM] #3E8,2,5x21,0x1B20EC,16,0x1AF330,TEMP?,0x1AF33C,RPM,436,1034,False,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3EA,Cluster E :: Map 5x21 [? × RPM] #3EA,2,5x21,0x1B21C0,16,0x1AF368,TEMP?,0x1AF374,RPM,1100,2046,False,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3EC,Cluster E :: Map 5x21 [? × RPM] #3EC,2,5x21,0x1B2294,16,0x1AF3A0,TEMP?,0x1AF3AC,RPM,969,1745,False,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3EE,Cluster E :: Map 5x21 [? × RPM] #3EE (flat),2,5x21,0x1B2368,16,0x1AF3D8,TEMP?,0x1AF3E4,RPM,3000,3000,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3F0,Cluster E :: Map 5x21 [? × RPM] #3F0 (flat),2,5x21,0x1B243C,16,0x1AF410,TEMP?,0x1AF41C,RPM,3100,3100,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3F2,Cluster E :: Map 5x21 [? × RPM] #3F2 (flat),2,5x21,0x1B2510,16,0x1AF448,TEMP?,0x1AF454,RPM,3000,3000,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3F4,Cluster E :: Map 5x21 [? × RPM] #3F4,2,5x21,0x1B25E4,16,0x1AF480,TEMP?,0x1AF48C,RPM,300,1000,False,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3F6,Cluster E :: Map 5x21 [? × RPM] #3F6,2,5x21,0x1B26B8,16,0x1AF4B8,TEMP?,0x1AF4C4,RPM,1100,1804,False,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3F8,Cluster E :: Map 5x21 [? × RPM] #3F8,2,5x21,0x1B278C,16,0x1AF4F0,TEMP?,0x1AF4FC,RPM,600,1720,False,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3FA,Cluster E :: Map 10x21 [? × RPM] #3FA (flat),2,10x21,0x1B2860,16,0x1ADFA8,AX,0x1AF528,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3FC,Cluster E :: Map 10x21 [? × RPM] #3FC (flat),2,10x21,0x1B2A04,16,0x1ADFD8,AX,0x1AF554,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x3FE,Cluster E :: Map 10x21 [? × RPM] #3FE (flat),2,10x21,0x1B2BA8,16,0x1AE008,AX,0x1AF580,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x400,Cluster E :: Map 10x21 [? × RPM] #400 (flat),2,10x21,0x1B2D4C,16,0x1AE038,AX,0x1AF5AC,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x402,Cluster E :: Map 10x21 [? × RPM] #402 (flat),2,10x21,0x1B2EF0,16,0x1AE068,AX,0x1AF5D8,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x404,Cluster E :: Map 10x21 [? × RPM] #404 (flat),2,10x21,0x1B3094,16,0x1AE098,AX,0x1AF604,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x406,Cluster E :: Map 10x21 [? × RPM] #406,2,10x21,0x1B3238,16,0x1AE0C8,AX,0x1AF630,RPM,223,2560,False,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x408,Cluster E :: Map 10x21 [? × RPM] #408 (flat),2,10x21,0x1B33DC,16,0x1AE0F8,AX,0x1AF65C,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x40A,Cluster E :: Map 10x21 [? × RPM] #40A (flat),2,10x21,0x1B3580,16,0x1AE128,AX,0x1AF688,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x40C,Cluster E :: Map 10x21 [? × RPM] #40C (flat),2,10x21,0x1B3724,16,0x1AE158,AX,0x1AF6B4,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x40E,Cluster E :: Map 10x21 [? × RPM] #40E (flat),2,10x21,0x1B38C8,16,0x1AE188,AX,0x1AF6E0,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x410,Cluster E :: Map 10x21 [? × RPM] #410 (flat),2,10x21,0x1B3A6C,16,0x1AE1B8,AX,0x1AF70C,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x412,Cluster E :: Map 10x21 [? × RPM] #412 (flat),2,10x21,0x1B3C10,16,0x1AE1E8,AX,0x1AF738,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x414,Cluster E :: Map 10x21 [? × RPM] #414 (flat),2,10x21,0x1B3DB4,16,0x1AE218,AX,0x1AF764,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x416,Cluster E :: Map 10x21 [? × RPM] #416,2,10x21,0x1B3F58,16,0x1AE248,AX,0x1AF790,RPM,254,2560,False,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x418,Cluster E :: Map 10x21 [? × RPM] #418 (flat),2,10x21,0x1B40FC,16,0x1AE278,AX,0x1AF7BC,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x41A,Cluster E :: Map 10x21 [? × RPM] #41A (flat),2,10x21,0x1B42A0,16,0x1AE2A8,AX,0x1AF7E8,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x41C,Cluster E :: Map 10x21 [? × RPM] #41C (flat),2,10x21,0x1B4444,16,0x1AE2D8,AX,0x1AF814,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x41E,Cluster E :: Map 10x21 [? × RPM] #41E,2,10x21,0x1B45E8,16,0x1AE308,AX,0x1AF840,RPM,246,2560,False,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x420,Cluster E :: Map 10x21 [? × RPM] #420 (flat),2,10x21,0x1B478C,16,0x1AE338,AX,0x1AF86C,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x422,Cluster E :: Map 10x21 [? × RPM] #422 (flat),2,10x21,0x1B4930,16,0x1AE368,AX,0x1AF898,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x424,Cluster E :: Map 10x21 [? × RPM] #424 (flat),2,10x21,0x1B4AD4,16,0x1AE398,AX,0x1AF8C4,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x426,Cluster E :: Map 10x21 [? × RPM] #426,2,10x21,0x1B4C78,16,0x1AE3C8,AX,0x1AF8F0,RPM,220,2560,False,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x428,Cluster E :: Map 10x21 [? × RPM] #428 (flat),2,10x21,0x1B4E1C,16,0x1AE3F8,AX,0x1AF91C,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x42A,Cluster E :: Map 10x21 [? × RPM] #42A (flat),2,10x21,0x1B4FC0,16,0x1AE428,AX,0x1AF948,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x42C,Cluster E :: Map 10x21 [? × RPM] #42C (flat),2,10x21,0x1B5164,16,0x1AE458,AX,0x1AF974,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x42E,Cluster E :: Map 10x21 [? × RPM] #42E,2,10x21,0x1B5308,16,0x1AE488,AX,0x1AF9A0,RPM,258,2560,False,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x430,Cluster E :: Map 10x21 [? × RPM] #430 (flat),2,10x21,0x1B54AC,16,0x1AE4B8,AX,0x1AF9CC,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x432,Cluster E :: Map 10x21 [? × RPM] #432 (flat),2,10x21,0x1B5650,16,0x1AE4E8,AX,0x1AF9F8,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x434,Cluster E :: Map 10x21 [? × RPM] #434 (flat),2,10x21,0x1B57F4,16,0x1AE518,AX,0x1AFA24,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x436,Cluster E :: Map 10x21 [? × RPM] #436,2,10x21,0x1B5998,16,0x1AE548,AX,0x1AFA50,RPM,243,2560,False,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x438,Cluster E :: Map 10x21 [? × RPM] #438 (flat),2,10x21,0x1B5B3C,16,0x1AE578,AX,0x1AFA7C,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x43A,Cluster E :: Curve 21pt [vs RPM] #43A (flat),1,21pt,0x1AFAD4,16,0x1AFAA8,RPM,,,7862,7862,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x43B,Cluster E :: Map 10x21 [? × RPM] #43B (flat),2,10x21,0x1B5CE0,16,0x1AE5BC,AX,0x1AFB00,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x43D,Cluster E :: Map 10x21 [? × RPM] #43D (flat),2,10x21,0x1B5E84,16,0x1AE5EC,AX,0x1AFB2C,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x43F,Cluster E :: Map 10x21 [? × RPM] #43F (flat),2,10x21,0x1B6028,16,0x1AE61C,AX,0x1AFB58,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x441,Cluster E :: Map 10x21 [? × RPM] #441 (flat),2,10x21,0x1B61CC,16,0x1AE64C,AX,0x1AFB84,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x443,Cluster E :: Map 10x21 [? × RPM] #443 (flat),2,10x21,0x1B6370,16,0x1AE67C,AX,0x1AFBB0,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x445,Cluster E :: Map 10x21 [? × RPM] #445 (flat),2,10x21,0x1B6514,16,0x1AE6AC,AX,0x1AFBDC,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x447,Cluster E :: Map 10x21 [? × RPM] #447 (flat),2,10x21,0x1B66B8,16,0x1AE6DC,AX,0x1AFC08,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x449,Cluster E :: Map 10x21 [? × RPM] #449 (flat),2,10x21,0x1B685C,16,0x1AE70C,AX,0x1AFC34,RPM,2560,2560,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x44B,Cluster E :: Map 10x21 [? × RPM] #44B (flat),2,10x21,0x1B6A00,8,0x1AE73C,AX,0x1AFC60,RPM,0,0,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x44D,Cluster E :: Map 10x21 [? × RPM] #44D (flat),2,10x21,0x1B6AD4,8,0x1AE76C,AX,0x1AFC8C,RPM,0,0,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x44F,Cluster E :: Map 10x21 [? × RPM] #44F (flat),2,10x21,0x1B6BA8,8,0x1AE79C,AX,0x1AFCB8,RPM,0,0,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x451,Cluster E :: Map 10x21 [? × RPM] #451 (flat),2,10x21,0x1B6C7C,8,0x1AE7CC,AX,0x1AFCE4,RPM,0,0,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x453,Cluster E :: Map 10x21 [? × RPM] #453 (flat),2,10x21,0x1B6D50,8,0x1AE7FC,AX,0x1AFD10,RPM,0,0,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"
+0x455,Cluster E :: Map 10x21 [? × RPM] #455 (flat),2,10x21,0x1B6E24,8,0x1AE82C,AX,0x1AFD3C,RPM,0,0,True,False,"Unidentified - Cluster E (IDs 0x38E-0x455, post-ETV)"

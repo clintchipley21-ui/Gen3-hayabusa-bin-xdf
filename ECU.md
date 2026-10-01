@@ -1,0 +1,12 @@
+Suzuki Hayabusa Gen 3 ECU Information
+
+ECU Model: Suzuki Hayabusa Gen 3 (2022+)
+Microprocessor: Renesas RH850/E1L R7F701201
+
+32990-10L0
+32990-10L1
+32990-10L2
+32990-10L3
+32990-10L4
+32990-10LA
+32990-10LB

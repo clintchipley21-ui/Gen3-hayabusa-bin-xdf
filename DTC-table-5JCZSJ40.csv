@@ -1,0 +1,132 @@
+DTC index,DTC,Description,Lamp byte address,Stock lamp byte,Lamp,XDF
+0,P0607,ECM performance (internal processor),0x1B9684,0x01,MIL,toggle
+1,P2123,APS (accelerator) sensor 1 high,0x1B9698,0x01,MIL,toggle
+2,P2120,APS sensor 1 circuit,0x1B96AC,0x01,MIL,toggle
+3,P2138,APS sensor 1/2 correlation,0x1B96C0,0x01,MIL,toggle
+4,P2128,APS sensor 2 high,0x1B96D4,0x01,MIL,toggle
+5,P2125,APS sensor 2 circuit,0x1B96E8,0x01,MIL,toggle
+6,P0123,TP sensor 1 high,0x1B96FC,0x01,MIL,toggle
+7,P0120,TP sensor 1 circuit,0x1B9710,0x01,MIL,toggle
+8,P2135,TP sensor 1/2 correlation,0x1B9724,0x01,MIL,toggle
+9,P0223,TP sensor 2 high,0x1B9738,0x01,MIL,toggle
+10,P0220,TP sensor 2 circuit,0x1B974C,0x01,MIL,toggle
+11,P0914,Gear position sensor circuit,0x1B9760,0x01,MIL,toggle
+12,P0916,Gear position sensor high,0x1B9774,0x01,MIL,toggle
+13,P0915 #1,Gear position sensor range/performance,0x1B9788,0x01,MIL,toggle
+14,P0915 #2,Gear position sensor range/performance,0x1B979C,0x01,MIL,toggle
+15,P0105,IAP/MAP sensor circuit (not in Gen3 manual),0x1B97B0,0x01,MIL,toggle
+16,P0107,IAP/MAP sensor low (not in Gen3 manual),0x1B97C4,0x01,MIL,toggle
+17,P0106 #1,IAP/MAP sensor range/performance (not in Gen3 manual),0x1B97D8,0x01,MIL,toggle
+18,P0106 #2,IAP/MAP sensor range/performance (not in Gen3 manual),0x1B97EC,0x01,MIL,toggle
+19,P1105,IAP sensor (Suzuki-specific),0x1B9800,0x01,MIL,toggle
+20,P1107,IAP sensor (Suzuki-specific),0x1B9814,0x01,MIL,toggle
+21,P0069,IAP vs AP (barometric) correlation,0x1B9828,0x01,MIL,toggle
+22,P1106,IAP sensor hose/performance (Suzuki-specific),0x1B983C,0x01,MIL,toggle
+23,P2226,AP (barometric) sensor circuit,0x1B9850,0x01,MIL,toggle
+24,P2228,AP (barometric) sensor low,0x1B9864,0x01,MIL,toggle
+25,P0110,IAT sensor circuit,0x1B9878,0x01,MIL,toggle
+26,P0112,IAT sensor low,0x1B988C,0x01,MIL,toggle
+27,P0111 #1,IAT sensor range/performance,0x1B98A0,0x01,MIL,toggle
+28,P0111 #2,IAT sensor range/performance,0x1B98B4,0x01,MIL,toggle
+29,P0195,Engine oil temperature sensor (not in Gen3 manual),0x1B98C8,0x01,MIL,toggle
+30,P0197,Engine oil temperature sensor low (not in Gen3 manual),0x1B98DC,0x01,MIL,toggle
+31,P0115,ECT sensor circuit,0x1B98F0,0x01,MIL,toggle
+32,P0117,ECT sensor low,0x1B9904,0x01,MIL,toggle
+33,P0116 #1,ECT sensor range/performance,0x1B9918,0x01,MIL,toggle
+34,P0116 #2,ECT sensor range/performance,0x1B992C,0x01,MIL,toggle
+35,P0116 #3,ECT sensor range/performance,0x1B9940,0x01,MIL,toggle
+36,P0132,HO2 sensor B1S1 high,0x1B9954,0x01,MIL,emissions - label only
+37,P0130 #1,HO2 sensor B1S1 circuit,0x1B9968,0x01,MIL,emissions - label only
+38,P2A00,HO2 sensor B1S1 range/performance,0x1B997C,0x01,MIL,emissions - label only
+39,P0133,HO2 sensor B1S1 slow response,0x1B9990,0x01,MIL,emissions - label only
+40,P0152,HO2 sensor B2S1 high,0x1B99A4,0x01,MIL,emissions - label only
+41,P0150 #1,HO2 sensor B2S1 circuit,0x1B99B8,0x01,MIL,emissions - label only
+42,P2A03,HO2 sensor B2S1 range/performance,0x1B99CC,0x01,MIL,emissions - label only
+43,P0153,HO2 sensor B2S1 slow response,0x1B99E0,0x01,MIL,emissions - label only
+44,P0138,HO2 sensor B1S2 high (not used),0x1B99F4,0x01,MIL,emissions - label only
+45,P0136,HO2 sensor B1S2 circuit (not used),0x1B9A08,0x01,MIL,emissions - label only
+46,P2A01,HO2 sensor B1S2 range (not used),0x1B9A1C,0x01,MIL,emissions - label only
+47,P0139,HO2 sensor B1S2 slow (not used),0x1B9A30,0x01,MIL,emissions - label only
+48,P0158,HO2 sensor B2S2 high (not used),0x1B9A44,0x01,MIL,emissions - label only
+49,P0156,HO2 sensor B2S2 circuit (not used),0x1B9A58,0x01,MIL,emissions - label only
+50,P2A04,HO2 sensor B2S2 range (not used),0x1B9A6C,0x01,MIL,emissions - label only
+51,P0159,HO2 sensor B2S2 slow (not used),0x1B9A80,0x01,MIL,emissions - label only
+52,P1402,Suzuki P1402 (not in Gen3 manual),0x1B9A94,0x01,MIL,emissions - label only
+53,P1400,Suzuki P1400 (not in Gen3 manual),0x1B9AA8,0x01,MIL,emissions - label only
+54,P1404 #1,Suzuki P1404 (not in Gen3 manual),0x1B9ABC,0x01,MIL,emissions - label only
+55,P1404 #2,Suzuki P1404 (not in Gen3 manual),0x1B9AD0,0x01,MIL,emissions - label only
+56,P1702,Suzuki P1702 (not in Gen3 manual),0x1B9AE4,0x40,Warning lamp,toggle
+57,P1700,Suzuki P1700 (not in Gen3 manual),0x1B9AF8,0x40,Warning lamp,toggle
+58,P1610,Ignition switch signal circuit,0x1B9B0C,0x40,Warning lamp,toggle
+59,P0828,Shift-up switch circuit high,0x1B9B20,0x40,Warning lamp,toggle
+60,P0826,Shift-up/down switch circuit,0x1B9B34,0x40,Warning lamp,toggle
+61,P0232,Fuel pump secondary circuit high,0x1B9B48,0x40,Warning lamp,toggle
+62,P023F,Fuel pump control circuit,0x1B9B5C,0x40,Warning lamp,toggle
+63,P0340,CMP (cam position) sensor,0x1B9B70,0x01,MIL,toggle
+64,P0335,CKP (crank position) sensor,0x1B9B84,0x01,MIL,toggle
+65,P0500 #1,Vehicle speed sensor (front wheel speed from ABS unit),0x1B9B98,0x01,MIL,toggle
+66,P0500 #2,Vehicle speed sensor (front wheel speed from ABS unit),0x1B9BAC,0x01,MIL,toggle
+67,P0500 #3,Vehicle speed sensor (front wheel speed from ABS unit),0x1B9BC0,0x01,MIL,toggle
+68,P2158 #1,Vehicle speed sensor B (rear wheel speed from ABS unit),0x1B9BD4,0x01,MIL,toggle
+69,P2158 #2,Vehicle speed sensor B (rear wheel speed from ABS unit),0x1B9BE8,0x01,MIL,toggle
+70,P2158 #3,Vehicle speed sensor B (rear wheel speed from ABS unit),0x1B9BFC,0x01,MIL,toggle
+71,P0850,Neutral (park/neutral) switch,0x1B9C10,0x01,MIL,toggle
+72,P0830,Clutch switch circuit,0x1B9C24,0x01,MIL,toggle
+73,P0201,Injector cyl 1 (primary),0x1B9C38,0x01,MIL,toggle
+74,P0202,Injector cyl 2 (primary),0x1B9C4C,0x01,MIL,toggle
+75,P0203,Injector cyl 3 (primary),0x1B9C60,0x01,MIL,toggle
+76,P0204,Injector cyl 4 (primary),0x1B9C74,0x01,MIL,toggle
+77,P1201,Secondary injector cyl 1,0x1B9C88,0x01,MIL,toggle
+78,P1202,Secondary injector cyl 2,0x1B9C9C,0x01,MIL,toggle
+79,P1203,Secondary injector cyl 3,0x1B9CB0,0x01,MIL,toggle
+80,P1204,Secondary injector cyl 4,0x1B9CC4,0x01,MIL,toggle
+81,P0351,Ignition coil 1,0x1B9CD8,0x01,MIL,toggle
+82,P0352,Ignition coil 2,0x1B9CEC,0x01,MIL,toggle
+83,P0353,Ignition coil 3,0x1B9D00,0x01,MIL,toggle
+84,P0354,Ignition coil 4,0x1B9D14,0x01,MIL,toggle
+85,P2102,Throttle actuator (ETV motor) circuit low,0x1B9D28,0x01,MIL,toggle
+86,P2101,Throttle actuator (ETV motor) range/performance,0x1B9D3C,0x01,MIL,toggle
+87,P0444,EVAP purge control valve circuit,0x1B9D50,0x01,MIL,emissions - label only
+88,P0412,PAIR (secondary air) control valve circuit,0x1B9D64,0x01,MIL,emissions - label only
+89,P0410,PAIR (secondary air) system,0x1B9D78,0x01,MIL,emissions - label only
+90,P1750,Suzuki P1750 (not in Gen3 manual),0x1B9D8C,0x40,Warning lamp,toggle
+91,P1403,Suzuki P1403 (not in Gen3 manual),0x1B9DA0,0x01,MIL,emissions - label only
+92,P1406,Suzuki P1406 (not in Gen3 manual),0x1B9DB4,0x01,MIL,emissions - label only
+93,P0030,HO2 heater B1S1 control,0x1B9DC8,0x01,MIL,emissions - label only
+94,P0050,HO2 heater B2S1 control,0x1B9DDC,0x01,MIL,emissions - label only
+95,P0036,HO2 heater B1S2 (not used),0x1B9DF0,0x01,MIL,emissions - label only
+96,P0056,HO2 heater B2S2 (not used),0x1B9E04,0x01,MIL,emissions - label only
+97,P0480,Cooling fan relay circuit,0x1B9E18,0x40,Warning lamp,toggle
+98,P0010,Cam actuator circuit (not used - no VVT),0x1B9E2C,0x01,MIL,emissions - label only
+99,P003C,Cam profile actuator (not used),0x1B9E40,0x01,MIL,emissions - label only
+100,P2505,ECM power input signal,0x1B9E54,0x01,MIL,toggle
+101,P0509,Idle air control high (not in Gen3 manual),0x1B9E68,0x01,MIL,emissions - label only
+102,P0511,Idle air control circuit (not in Gen3 manual),0x1B9E7C,0x01,MIL,emissions - label only
+103,P0506,Idle rpm lower than expected (not in Gen3 manual),0x1B9E90,0x01,MIL,emissions - label only
+104,P0507,Idle rpm higher than expected (not in Gen3 manual),0x1B9EA4,0x01,MIL,emissions - label only
+105,P0505,Idle air control system (not in Gen3 manual),0x1B9EB8,0x01,MIL,emissions - label only
+106,P0420,Catalyst efficiency bank 1 (not in Gen3 manual),0x1B9ECC,0x01,MIL,emissions - label only
+107,P0430,Catalyst efficiency bank 2 (not in Gen3 manual),0x1B9EE0,0x01,MIL,emissions - label only
+108,P0300 #1,Misfire detected,0x1B9EF4,0x01,MIL,emissions - label only
+109,P0300 #2,Misfire detected,0x1B9F08,0x01,MIL,emissions - label only
+110,P0171 #1,Fuel system too lean B1,0x1B9F1C,0x01,MIL,emissions - label only
+111,P0172 #1,Fuel system too rich B1,0x1B9F30,0x01,MIL,emissions - label only
+112,P0174 #1,Fuel system too lean B2,0x1B9F44,0x01,MIL,emissions - label only
+113,P0175 #1,Fuel system too rich B2,0x1B9F58,0x01,MIL,emissions - label only
+114,P0171 #2,Fuel system too lean B1,0x1B9F6C,0x01,MIL,emissions - label only
+115,P0172 #2,Fuel system too rich B1,0x1B9F80,0x01,MIL,emissions - label only
+116,P0174 #2,Fuel system too lean B2,0x1B9F94,0x01,MIL,emissions - label only
+117,P0175 #2,Fuel system too rich B2,0x1B9FA8,0x01,MIL,emissions - label only
+118,P050B,Cold-start ignition timing performance,0x1B9FBC,0x01,MIL,emissions - label only
+119,P1650,Suzuki P1650 (warning-lamp code),0x1B9FD0,0x40,Warning lamp,toggle
+120,P0602,ECM programming error,0x1B9FE4,0x10,none (group 0x10),toggle
+121,P1622,ECM EEPROM error,0x1B9FF8,0x01,MIL,toggle
+122,U0073,CAN bus off,0x1BA00C,0x40,Warning lamp,toggle
+123,U0121,Lost communication with ABS unit,0x1BA020,0x40,Warning lamp,toggle
+124,U0123,Lost communication with IMU,0x1BA034,0x40,Warning lamp,toggle
+125,U0155,Lost communication with instrument cluster,0x1BA048,0x40,Warning lamp,toggle
+126,P2158 #4,Vehicle speed sensor B (rear wheel speed from ABS unit),0x1BA05C,0x01,MIL,toggle
+127,P0130 #2,HO2 sensor B1S1 circuit,0x1BA070,0x01,MIL,emissions - label only
+128,P0150 #2,HO2 sensor B2S1 circuit,0x1BA084,0x01,MIL,emissions - label only
+129,P0520,Engine oil pressure sensor/switch circuit (not in Gen3 manual),0x1BA098,0x01,MIL,toggle
+130,P0522,Engine oil pressure sensor/switch low (not in Gen3 manual),0x1BA0AC,0x01,MIL,toggle

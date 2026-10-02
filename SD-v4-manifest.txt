@@ -1,0 +1,68 @@
+SPEED-DENSITY v4 + ROLLING ANTI-LAG  —  Hayabusa-5JCZSJ40-race-software-SD-v4.bin   (built on SD-v3)
+UNVERIFIED ON HARDWARE. Bench ECM first. Keep the stock read for recovery.
+Use with: Hayabusa-Gen3-5JCZSJ40-5JCZSJ10-race-software-SD-v4.xdf
+Source:   als.s (assembly, GNU as -mv850e3v5), als_harness.s (simulator test)
+================================================================================
+
+HOW IT WORKS (rider's view)
+ Rolling at or above 20 km/h (front wheel), hold the START button. Go WOT (grip at 90 deg or more):
+ the ECU captures the RPM at that moment and holds it with an all-cylinder SPARK cut. Fuel stays on,
+ and the "ALS Timing Retard" map is applied (default 20 deg retard).
+ Release START -> full power. Rolling the grip back below 60 deg also releases; re-opening re-captures.
+ Safety: after 10 s continuously active it drops out until START is released. No capture below 3000 rpm.
+ Capture is clamped to 10,500 rpm. Needs coolant at 60 C or more. All of these are XDF-editable.
+ Stationary: START works exactly as stock (launch control 1 s hold, starter).
+
+WHY START, NOT MODE (for now)
+ MODE is read by the meter and sent to the ECU over CAN. The bit could not be identified statically.
+ START is wired straight to the ECM (pin 54). It is read in code as fef024DE bit0 (FUN_73B52, port
+ 0x04030003). The trigger is ONE instruction block in ALS_TICK (marked "TRIGGER" in als.s). To move it
+ to MODE later, swap that tst1 for the confirmed CAN flag bit.
+ Starter relay safety (stock, verified): relay only engages below 500 rpm (0x18DA8E) and drops at
+ 1000 rpm (0x18DA90). It also needs neutral or clutch. Holding START with the engine running never cranks.
+
+CHANGES vs SD-v3 (1,055 bytes; all listed)
+ CODE (new, free flash 0xBE000-0xBE147, previously 0xFF):
+   ALS_TICK      0xBE000  runs in the ~5 ms task (hooked in front of FUN_5BDB4, starter task)
+   ALS_LIMIT     0xBE0D6  replaces FUN_2C700 (the stock ignition-cut limiter). Thresholds come from
+                          the captured RPM while ALS is active, otherwise the stock 0x1542D0/D2 pair.
+   ALS_IS_ACTIVE 0xBE138  returns ALS active (used by FUN_525EE table select)
+ HOOKS:
+   0x2C700  80 07 21 00 -> jr ALS_LIMIT
+   0x5BE02  jarl 0x5BDB4 -> jarl ALS_TICK  (ALS_TICK tail-jumps to 0x5BDB4)
+   0x525F2  jarl 0x7446A -> jarl ALS_IS_ACTIVE
+            The Trim B neutral slot (OT5) becomes the ALS retard map. The boost retard map is now
+            used in neutral too.
+ CALIBRATION 0xBF000-0xBF00F: enable, min ECT, min speed, capture/release grip, min/max rpm,
+   hysteresis, max time (see XDF category "Rolling Anti-Lag (SD-v4)").
+ ALS retard map 0x188214 (23x39, MAP x RPM): max(20 deg, boost retard) per cell.
+ STOCK LC LONG-PRESS: while armed (START + rolling), ALS_TICK zeroes counter 0xFEF0071E every tick.
+   So holding START while rolling cannot toggle launch control (FUN_28C36 needs 250 counts).
+ RAM: 6 bytes at 0xFEBFE000. This sits in the zero-initialised local RAM above the 0xFEBFC180 stack top.
+   No absolute, gp-relative or table pointer in the image references 0xFEBFC181-0xFEBFFFF7.
+ Field-1 CRC -> 0xD834.
+
+SPARK-CUT PATH (traced, unchanged)
+ fef00A1E bit1 -> FUN_2C396 -> fef00A19 bit2 -> FUN_2CD30 -> fef00A30 bit2 -> FUN_4FBCC:
+ ignition mode fef01554[cyl] = 2 (coil inhibited) on all cylinders. Fuel is not cut on this path.
+
+VERIFICATION DONE
+ - Assembled and linked with GNU binutils 2.42 (v850e3v5); all hooks and branch targets disassembled.
+ - The exact v4 bytes were run in the GNU v850 simulator (gdb 14.2 sim) against 18 scenarios:
+   arm/disarm, capture, hold with hysteresis, grip release and re-capture, speed/ECT disarm,
+   below-min no-capture, max clamp, stock limiter with the button off (12,000/11,900), timeout after
+   2000 ticks, release clears the timeout, LC counter blocked only while armed. All passed. The cut
+   request propagated to fef00A19 bit2.
+ - XDF: 0 descriptor mismatches, no duplicate IDs.
+
+NOT VERIFIED / WATCH
+ - Task period: ALS_TICK runs in the scheduler slot that fires every 5 base ticks. The 1 ms base tick
+   is inferred (it matches the manual's 1 s LC hold = 250 counts in the 4-tick slot). Time it on the bench.
+ - Spark-cut ALS with fuel on puts raw fuel into a hot exhaust: big EGT, turbo/exhaust-valve stress, and
+   catalysts will not survive. Use short bursts. The 10 s max time is a backstop, not a duty-cycle limit.
+ - Retard applies on the main timing path. The idle/neutral path (fef01544) is not retarded.
+ - The 0xBE000 region and RAM choice are well-evidenced but not proven by hardware. CKTEST-style bench
+   boot first, then idle, then a short ALS test on a stand with a tach and EGT.
+ - Field 3 (0x1FFEF8) still not recomputed (same as all SD bins).
+ - MODE-button trigger: needs a CAN log (or a diagnostic bin) with MODE pressed, to identify the bit in
+   the 0x1D1/0x231/0x235/0x3B1 meter frames.
